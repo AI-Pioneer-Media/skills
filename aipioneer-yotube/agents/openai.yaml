@@ -1,0 +1,8 @@
+interface:
+  display_name: "AIPioneerYotube"
+  short_description: "将 YouTube 视频转成 AI Pioneer 风格公众号深度稿"
+  brand_color: "#007AAA"
+  default_prompt: "使用 $aipioneer-yotube 把这个 YouTube 链接转成 AI Pioneer 风格公众号文章。"
+
+policy:
+  allow_implicit_invocation: true
