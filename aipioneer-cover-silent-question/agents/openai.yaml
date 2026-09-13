@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Pioneer H · 静默一问"
+  short_description: "制作静默一问封面：保留静默黑白人物，只增加一句简短问题，附原图案例与可复用提示词"
+  default_prompt: "用 $aipioneer-cover-silent-question 为这篇文章制作静默一问风格封面，保存原图与提示词并展示预览。"

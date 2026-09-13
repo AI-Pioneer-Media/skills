@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Pioneer G · 一句话"
+  short_description: "制作一句话封面：不放人物，只用一句短文案与极简文字留白，附原图案例与可复用提示词"
+  default_prompt: "用 $aipioneer-cover-type 为这篇文章制作一句话风格封面，保存原图与提示词并展示预览。"

@@ -61,6 +61,85 @@ git clone https://github.com/AI-Pioneer-Media/skills.git
 
 文末按「资料说明 → 品牌介绍 → 关注 → 星标」排列。文章示例使用的图片文件名可能不同，请按用途对应；头图、封面和正文证据图按具体文章准备。
 
+## 封面风格库（A–H）
+
+2026-09-14 新增 8 个独立封面 Skill。A–G 原方案与原图全部保留，H「静默一问」是在 F「静默人物」基础上增加一句短问题。每款包含设计约束、可复用提示词、原尺寸 PNG 案例与 Codex 调用配置；可只安装其中任意一款。
+
+| 款式 | Skill | 视觉特征 |
+| --- | --- | --- |
+| A 先锋拼贴 | [aipioneer-cover-collage](aipioneer-cover-collage/SKILL.md) | 黑白撕纸、薄荷绿标记与大字人物拼贴 |
+| B 薄荷绿刊物 | [aipioneer-cover-mint](aipioneer-cover-mint/SKILL.md) | 薄荷绿整底、黑框刊头与醒目提问大字 |
+| C 蓝色研究档案 | [aipioneer-cover-blueprint](aipioneer-cover-blueprint/SKILL.md) | 深蓝工程网格、双色人像与研究档案构图 |
+| D 黑白人物志 | [aipioneer-cover-portrait](aipioneer-cover-portrait/SKILL.md) | 黑白人物特写、薄荷绿方括号与杂志刊头 |
+| E 白色发布会 | [aipioneer-cover-white](aipioneer-cover-white/SKILL.md) | 自然低饱和人像、两行短句与大面积留白 |
+| F 静默人物 | [aipioneer-cover-silent](aipioneer-cover-silent/SKILL.md) | 右置黑白人像、极小署名与无主标题留白 |
+| G 一句话 | [aipioneer-cover-type](aipioneer-cover-type/SKILL.md) | 不放人物，只用一句短文案与极简文字留白 |
+| H 静默一问 | [aipioneer-cover-silent-question](aipioneer-cover-silent-question/SKILL.md) | 保留静默黑白人物，只增加一句简短问题 |
+
+E–H 是留白系列：E 为自然彩色人物＋两行短句；F 为黑白人物、无主标题；G 为纯文字、无人像；H 为黑白人物＋一句问题。D 虽是黑白人物，但保留大刊头和绿色方括号，不与 F 合并。
+
+### 案例图库
+
+以下保留各方案原尺寸图，点击可查看原图。案例中的人物与标题仅演示风格；新选题使用自己的素材。生成式人物图为设计演绎，不是新的纪实照片或人物背书。A、C 原图有生成器额外添加的小字，已在对应 Skill 中明确不将其继承为品牌规范。
+
+#### A · 先锋拼贴
+
+[![A 先锋拼贴](aipioneer-cover-collage/assets/example.png)](aipioneer-cover-collage/assets/example.png)
+
+[使用规则](aipioneer-cover-collage/SKILL.md) · [提示词与素材说明](aipioneer-cover-collage/references/prompt-template.md)
+
+#### B · 薄荷绿刊物
+
+[![B 薄荷绿刊物](aipioneer-cover-mint/assets/example.png)](aipioneer-cover-mint/assets/example.png)
+
+[使用规则](aipioneer-cover-mint/SKILL.md) · [提示词与素材说明](aipioneer-cover-mint/references/prompt-template.md)
+
+#### C · 蓝色研究档案
+
+[![C 蓝色研究档案](aipioneer-cover-blueprint/assets/example.png)](aipioneer-cover-blueprint/assets/example.png)
+
+[使用规则](aipioneer-cover-blueprint/SKILL.md) · [提示词与素材说明](aipioneer-cover-blueprint/references/prompt-template.md)
+
+#### D · 黑白人物志
+
+[![D 黑白人物志](aipioneer-cover-portrait/assets/example.png)](aipioneer-cover-portrait/assets/example.png)
+
+[使用规则](aipioneer-cover-portrait/SKILL.md) · [提示词与素材说明](aipioneer-cover-portrait/references/prompt-template.md)
+
+#### E · 白色发布会
+
+[![E 白色发布会](aipioneer-cover-white/assets/example.png)](aipioneer-cover-white/assets/example.png)
+
+[使用规则](aipioneer-cover-white/SKILL.md) · [提示词与素材说明](aipioneer-cover-white/references/prompt-template.md)
+
+#### F · 静默人物
+
+[![F 静默人物](aipioneer-cover-silent/assets/example.png)](aipioneer-cover-silent/assets/example.png)
+
+[使用规则](aipioneer-cover-silent/SKILL.md) · [提示词与素材说明](aipioneer-cover-silent/references/prompt-template.md)
+
+#### G · 一句话
+
+[![G 一句话](aipioneer-cover-type/assets/example.png)](aipioneer-cover-type/assets/example.png)
+
+[使用规则](aipioneer-cover-type/SKILL.md) · [提示词与素材说明](aipioneer-cover-type/references/prompt-template.md)
+
+#### H · 静默一问
+
+[![H 静默一问](aipioneer-cover-silent-question/assets/example.png)](aipioneer-cover-silent-question/assets/example.png)
+
+[使用规则](aipioneer-cover-silent-question/SKILL.md) · [提示词与素材说明](aipioneer-cover-silent-question/references/prompt-template.md)
+
+### 封面调用示例
+
+```text
+用 $aipioneer-cover-silent-question 为这篇访谈做封面，使用我提供的人物照片，问题写“高分，就够了吗？”。
+用 $aipioneer-cover-silent 制作静默人物版，不放主标题。
+用 $aipioneer-cover-type 只做一句话纯文字封面。
+```
+
+这些 Skill 独立于公众号上传工具：生成图片不会自动替换或发布文章。默认使用环境中的内置图像生成工具，不需要为此在仓库配置密钥；没有可用工具时只能交付提示词，不能声称已生成图片。横版案例约 2.35:1，方形展示位需另行适配。所有新封面包使用相对资源路径，不依赖作者电脑目录。
+
 ## 共建方式
 
 新增技能单独建目录，并提供 `SKILL.md`；脚本放 `scripts/`，参考资料放 `references/`。修改写作规则或发布脚本时，建议通过 Pull Request 说明修改原因，由另一位成员核对后合并。

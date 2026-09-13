@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Pioneer D · 黑白人物志"
+  short_description: "制作黑白人物志封面：黑白人物特写、薄荷绿方括号与杂志刊头，附原图案例与可复用提示词"
+  default_prompt: "用 $aipioneer-cover-portrait 为这篇文章制作黑白人物志风格封面，保存原图与提示词并展示预览。"

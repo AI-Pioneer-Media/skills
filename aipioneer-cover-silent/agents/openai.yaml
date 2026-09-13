@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Pioneer F · 静默人物"
+  short_description: "制作静默人物封面：右置黑白人像、极小署名与无主标题留白，附原图案例与可复用提示词"
+  default_prompt: "用 $aipioneer-cover-silent 为这篇文章制作静默人物风格封面，保存原图与提示词并展示预览。"

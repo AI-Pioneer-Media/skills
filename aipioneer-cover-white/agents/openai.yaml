@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Pioneer E · 白色发布会"
+  short_description: "制作白色发布会封面：自然低饱和人像、两行短句与大面积留白，附原图案例与可复用提示词"
+  default_prompt: "用 $aipioneer-cover-white 为这篇文章制作白色发布会风格封面，保存原图与提示词并展示预览。"
