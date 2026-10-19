@@ -59,9 +59,8 @@ async function main() {
   let html=`<section style="max-width:677px;margin:0 auto;background:#FFFFFF;color:${ink};font-family:Arial,'PingFang SC','Microsoft YaHei',sans-serif;word-wrap:break-word;">`;
   html+=`<section style="margin:0 0 10px;line-height:0;">${image('__HEADER__','AI PIONEER · 记录 AI 先行者的思考与行动')}</section>`;
   html+=`<p style="margin:0;line-height:0;">${image('__HERO__',data.person.name+' · '+data.person.role)}</p>`;
-  html+=`<p style="margin:26px 0 11px;color:${red};font-size:11px;line-height:1.6;font-weight:700;letter-spacing:2px;">AI 先行者 · ${esc(data.person.name)}</p>`;
-  html+=p(data.headline,'font-family:SimSun,"Songti SC",serif;font-size:29px;font-weight:700;line-height:1.4;letter-spacing:0;margin:0 0 18px;');
-  html+=p(data.person.name+'　'+data.person.role,'font-size:12px;line-height:1.7;margin:0 0 30px;');
+  // Identity and role are already present in the hero. Start the article with its headline.
+  html+=p(data.headline,'font-family:SimSun,"Songti SC",serif;font-size:29px;font-weight:700;line-height:1.4;letter-spacing:0;margin:26px 0 24px;');
   html+=`<section style="margin:0 0 36px;">${data.intro.map((t,i)=>p(t,i?'margin-top:16px;':'')).join('')}</section>`;
   data.sections.forEach((s,i)=>{
     html+=`<section style="margin:${i?36:0}px 0 15px;"><p style="margin:0 0 8px;color:${red};font-size:11px;font-weight:700;letter-spacing:1px;line-height:1.4;">${String(i+1).padStart(2,'0')}</p>${p(s.title,'font-size:20px;line-height:1.5;font-weight:700;letter-spacing:0;')}</section>`;
