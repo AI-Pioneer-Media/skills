@@ -1,0 +1,6 @@
+interface:
+  display_name: "AI Pionner 1019 新版"
+  short_description: "AI Pioneer 默认朱红排版、人物封面、往期推荐与微信草稿工作流"
+  default_prompt: "使用 $ai-pioneer-1019 按 1019 定稿设计编辑这篇 AI Pioneer 文章，生成封面、完整排版和手机预览，并按我的要求存入草稿箱。"
+policy:
+  allow_implicit_invocation: true

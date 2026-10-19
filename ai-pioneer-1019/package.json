@@ -1,0 +1,8 @@
+{
+  "name": "ai-pioneer-1019",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI Pioneer 1019 WeChat layout builder",
+  "engines": {"node": ">=20"},
+  "dependencies": {"playwright": "^1.62.1", "sharp": "^0.35.5"}
+}

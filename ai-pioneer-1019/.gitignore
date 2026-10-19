@@ -1,0 +1,10 @@
+node_modules/
+outputs/
+*.log
+.env*
+account.json
+*receipt.json
+*journal.json
+*snapshot.json
+retrieved-*
+.draft.lock
