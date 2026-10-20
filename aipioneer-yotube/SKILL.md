@@ -12,7 +12,7 @@ description: 将 YouTube 科技访谈、演讲或播客转成 AI Pioneer 风格�
 ## 工作流
 
 1. **获取视频材料**
-   - 运行 `C:\Users\Administrator\.codex\skills\youtube-ai-pioneer-draft\scripts\prepare_youtube_material.py`，保存元数据、字幕和缩略图。
+   - 运行同级 `youtube-ai-pioneer-draft/scripts/prepare_youtube_material.py`（按实际安装目录定位），保存元数据、字幕和缩略图。
    - 无字幕时依次尝试官方字幕、视频说明、演讲者或机构发布的文字稿；仍不足时说明证据缺口，不凭空补全观点。
    - 不在聊天中粘贴完整字幕。
 
@@ -40,6 +40,9 @@ description: 将 YouTube 科技访谈、演讲或播客转成 AI Pioneer 风格�
    - 完整版式与用量规则见 [排版规范](references/layout-spec.md)。
 
 5. **预检**
+   - 正文只放给读者看的内容。段尾的“官方任务说明”“某机构方法说明”“原视频，时间码”等来源链接统一移至文末参考资料；不要把来源标签裸露成半句话。自然的“某人在访谈中说”、必要的事实归属与图片来源仍保留。
+   - 内部检索标记、编辑批注、核验过程记录、未完成占位符不得进入文章。逐段通读最终 HTML 的可见文字，而非仅检查 Markdown 或链接有效性。
+   - 发布脚本先运行 `scripts/reader-quality.mjs` 的读者正文检查；失败时停止预览／上传并修改源稿，不能静默删字或绕过。规则回归测试：`node --test scripts/reader-quality.test.mjs`。
    - 检查标题承诺与正文一致、所有本地图片存在、引用可追溯、章节之间有显式过渡、结尾只有一个主要动作。
    - 用 `scripts/publish_aipioneer_yotube.mjs --dry-run` 生成 HTML 预览。
    - 检查预览中不存在未解析的 `[BLUE]`、`[GREEN]`、`[BOLD]`、Markdown 星号或孤立的 `>`。
@@ -52,10 +55,12 @@ description: 将 YouTube 科技访谈、演讲或播客转成 AI Pioneer 风格�
 
 ## 常用命令
 
+将 `<skills-root>` 替换为本机技能安装目录，`D:\公众号` 替换为实际文章工作区。
+
 准备材料：
 
 ```powershell
-& <bundled-python> "C:\Users\Administrator\.codex\skills\youtube-ai-pioneer-draft\scripts\prepare_youtube_material.py" `
+& <bundled-python> "<skills-root>\youtube-ai-pioneer-draft\scripts\prepare_youtube_material.py" `
   --url "<youtube-url>" `
   --workspace "D:\公众号" `
   --slug "<topic-slug>"
@@ -64,7 +69,7 @@ description: 将 YouTube 科技访谈、演讲或播客转成 AI Pioneer 风格�
 预览：
 
 ```powershell
-& <bundled-node> "C:\Users\Administrator\.codex\skills\aipioneer-yotube\scripts\publish_aipioneer_yotube.mjs" `
+& <bundled-node> "<skills-root>\aipioneer-yotube\scripts\publish_aipioneer_yotube.mjs" `
   --markdown "D:\公众号\草稿\<slug>.md" `
   --cover "D:\公众号\配图\<slug>\01-youtube-thumbnail.jpg" `
   --title "<title>" `

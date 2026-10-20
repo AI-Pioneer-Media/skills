@@ -6,3 +6,9 @@ __pycache__/
 node_modules/
 .DS_Store
 Thumbs.db
+# Local credentials and per-article state are never part of skill distribution.
+**/config/config.json
+**/凭据*/
+**/公众号草稿/
+**/在线编辑/
+*.log

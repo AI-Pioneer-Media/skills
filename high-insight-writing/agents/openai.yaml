@@ -1,0 +1,4 @@
+interface:
+  display_name: "高启示率写作"
+  short_description: "用高信息密度、逻辑递进与具体证据重写高留存自媒体内容"
+  default_prompt: "使用 $high-insight-writing 把这篇草稿改成高启示率、具体、可信且能持续留住读者的文章。"

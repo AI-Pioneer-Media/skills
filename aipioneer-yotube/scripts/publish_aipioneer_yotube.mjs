@@ -1,6 +1,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
+import { assertReaderReady } from './reader-quality.mjs';
 
 const API = 'https://api.weixin.qq.com/cgi-bin';
 
@@ -30,7 +31,7 @@ function escapeHtml(value = '') {
 
 function inlineMarkdown(value) {
   let text = escapeHtml(value);
-  text = text.replace(/\[([^\]]+)\]\(https?:\/\/[^)]+\)/g, '$1');
+  text = text.replace(/\[([^\]]+)\]\((https?:\/\/[^)]+)\)/g, '<a href="$2" style="color:inherit;text-decoration:underline;">$1</a>');
   text = text.replace(/`([^`]+)`/g, '<code style="font-size:14px;color:#111;background:#f2f4f7;padding:2px 5px;border-radius:4px;">$1</code>');
   text = text.replace(/\*\*([^*]+)\*\*/g, '<strong style="color:#111;font-weight:700;">$1</strong>');
   return text;
@@ -231,6 +232,7 @@ const markdownPath = path.resolve(args.markdown);
 const coverPath = path.resolve(args.cover);
 const outputPath = path.resolve(args.output);
 const markdown = await fs.readFile(markdownPath, 'utf8');
+assertReaderReady(markdown);
 const article = parseMarkdown(markdown, markdownPath);
 await Promise.all([fs.access(coverPath), ...article.images.map((item) => fs.access(item.filePath))]);
 

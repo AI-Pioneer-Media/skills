@@ -1,0 +1,3275 @@
+{
+  "schema_version": 1,
+  "title": "卡兹克写作思考图谱",
+  "created_on": "2026-10-13",
+  "scope": "研究18篇已归档原文（含部分联合署名、可见正文与作者公开方法）及Q叔明确反馈；结构观察与可复用编辑模型，不宣称还原作者心理或验证爆款因果。",
+  "popularity_verified": false,
+  "method": "完整正文细读，原文定位，观察与推导分离，用户约束另列，路径按题材选择。",
+  "groups": [
+    {
+      "id": "event",
+      "label": "拆事件",
+      "column": 0
+    },
+    {
+      "id": "reader",
+      "label": "接读者",
+      "column": 1
+    },
+    {
+      "id": "progress",
+      "label": "推进理解",
+      "column": 2
+    },
+    {
+      "id": "meaning",
+      "label": "形成认识",
+      "column": 3
+    },
+    {
+      "id": "craft",
+      "label": "表达与检查",
+      "column": 4
+    }
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "title": "4090显卡对华禁售，屠龙刀也终于落在你我的头上了",
+      "author": "数字生命卡兹克",
+      "published_at": "2023-10-18 22:34:13",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647660005&idx=1&sn=cab5ee25d1a608ead62c51a7aed8e10d",
+      "line_count": 51,
+      "read_scope": "full_body_this_turn",
+      "markdown_image_occurrences": 6,
+      "archive_image_count": 6,
+      "engagement": {
+        "read_count": null,
+        "like_count": null,
+        "wow_count": null,
+        "share_count": null,
+        "favorite_count": null,
+        "comment_count": null,
+        "comments": null,
+        "status": "not_returned_by_anonymous_web_page",
+        "observed_at": "2026-10-09T04:40:41-07:00"
+      },
+      "sample_reason": "题材差异与结构观察选样；不按可验证传播排名抽样",
+      "event_facts_reverified_this_turn": false
+    },
+    {
+      "id": "S02",
+      "title": "你聊得很开心的AI女友，背后却是被当做耗材的肯尼亚小伙们。",
+      "author": "数字生命卡兹克",
+      "published_at": "2025-12-29 09:18:00",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647678327&idx=1&sn=4133cc61c9fa2fa296cc33b5799bed2c",
+      "line_count": 150,
+      "read_scope": "full_body_this_turn",
+      "markdown_image_occurrences": 18,
+      "archive_image_count": 18,
+      "engagement": {
+        "read_count": null,
+        "like_count": null,
+        "wow_count": null,
+        "share_count": null,
+        "favorite_count": null,
+        "comment_count": null,
+        "comments": null,
+        "status": "not_returned_by_anonymous_web_page",
+        "observed_at": "2026-10-09T05:11:47-07:00"
+      },
+      "sample_reason": "题材差异与结构观察选样；不按可验证传播排名抽样",
+      "event_facts_reverified_this_turn": false
+    },
+    {
+      "id": "S03",
+      "title": "她决定开源AI模型，正面宣战“N号房2.0”。",
+      "author": "数字生命卡兹克",
+      "published_at": "2024-09-04 09:30:00",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647665015&idx=1&sn=328b8cd442a92699d6ba3e5c89ea7ab2",
+      "line_count": 111,
+      "read_scope": "full_body_this_turn",
+      "markdown_image_occurrences": 12,
+      "archive_image_count": 12,
+      "engagement": {
+        "read_count": null,
+        "like_count": null,
+        "wow_count": null,
+        "share_count": null,
+        "favorite_count": null,
+        "comment_count": null,
+        "comments": null,
+        "status": "not_returned_by_anonymous_web_page",
+        "observed_at": "2026-10-09T04:39:34-07:00"
+      },
+      "sample_reason": "题材差异与结构观察选样；不按可验证传播排名抽样",
+      "event_facts_reverified_this_turn": false
+    },
+    {
+      "id": "S04",
+      "title": "AI领域的全面战争，从AI爬虫毁灭互联网开始。",
+      "author": "数字生命卡兹克",
+      "published_at": "2025-03-24 09:00:00",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647669824&idx=1&sn=a3923baccc86ad7942a192563b96e7f8",
+      "line_count": 111,
+      "read_scope": "full_body_this_turn",
+      "markdown_image_occurrences": 9,
+      "archive_image_count": 9,
+      "engagement": {
+        "read_count": null,
+        "like_count": null,
+        "wow_count": null,
+        "share_count": null,
+        "favorite_count": null,
+        "comment_count": null,
+        "comments": null,
+        "status": "not_returned_by_anonymous_web_page",
+        "observed_at": "2026-10-09T05:08:57-07:00"
+      },
+      "sample_reason": "题材差异与结构观察选样；不按可验证传播排名抽样",
+      "event_facts_reverified_this_turn": false
+    },
+    {
+      "id": "S05",
+      "title": "Lovart悄悄上的这个新功能，就是我心中设计的神。",
+      "author": "数字生命卡兹克",
+      "published_at": "2025-12-05 09:18:00",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647677626&idx=1&sn=2292983ce2ddcfe42c41f37e290c9d53",
+      "line_count": 120,
+      "read_scope": "full_body_this_turn",
+      "markdown_image_occurrences": 32,
+      "archive_image_count": 33,
+      "engagement": {
+        "read_count": null,
+        "like_count": null,
+        "wow_count": null,
+        "share_count": null,
+        "favorite_count": null,
+        "comment_count": null,
+        "comments": null,
+        "status": "not_returned_by_anonymous_web_page",
+        "observed_at": "2026-10-09T04:27:56-07:00"
+      },
+      "sample_reason": "题材差异与结构观察选样；不按可验证传播排名抽样",
+      "event_facts_reverified_this_turn": false
+    },
+    {
+      "id": "S06",
+      "title": "AI看不到的爱心，成了最棒的AI检测器。",
+      "author": "数字生命卡兹克",
+      "published_at": "2025-10-31 09:30:00",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647676093&idx=1&sn=4ad48ccad3f9dcab74aefaff6bce1a69",
+      "line_count": 143,
+      "read_scope": "full_body_this_turn",
+      "markdown_image_occurrences": 16,
+      "archive_image_count": 16,
+      "engagement": {
+        "read_count": null,
+        "like_count": null,
+        "wow_count": null,
+        "share_count": null,
+        "favorite_count": null,
+        "comment_count": null,
+        "comments": null,
+        "status": "not_returned_by_anonymous_web_page",
+        "observed_at": "2026-10-09T04:47:01-07:00"
+      },
+      "sample_reason": "题材差异与结构观察选样；不按可验证传播排名抽样",
+      "event_facts_reverified_this_turn": false
+    },
+    {
+      "id": "S07",
+      "title": "假扮AI的17岁男高中生，用回复治愈了整个B站。",
+      "author": "数字生命卡兹克",
+      "published_at": "2025-07-01 09:00:00",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647672801&idx=1&sn=6c48c57e40e858515c62804f5c32e559",
+      "line_count": 137,
+      "read_scope": "full_body_this_turn",
+      "markdown_image_occurrences": 23,
+      "archive_image_count": 23,
+      "engagement": {
+        "read_count": null,
+        "like_count": null,
+        "wow_count": null,
+        "share_count": null,
+        "favorite_count": null,
+        "comment_count": null,
+        "comments": null,
+        "status": "not_returned_by_anonymous_web_page",
+        "observed_at": "2026-10-09T05:08:35-07:00"
+      },
+      "sample_reason": "题材差异与结构观察选样；不按可验证传播排名抽样",
+      "event_facts_reverified_this_turn": false
+    },
+    {
+      "id": "S08",
+      "title": "因为GPT-5，这群人决定在Reddit上起义。",
+      "author": "数字生命卡兹克",
+      "published_at": "2025-08-11 09:00:00",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647673931&idx=1&sn=cfc4c12cf5110e76f9fb5da4277e9482",
+      "line_count": 128,
+      "read_scope": "full_body_this_turn",
+      "markdown_image_occurrences": 24,
+      "archive_image_count": 24,
+      "engagement": {
+        "read_count": null,
+        "like_count": null,
+        "wow_count": null,
+        "share_count": null,
+        "favorite_count": null,
+        "comment_count": null,
+        "comments": null,
+        "status": "not_returned_by_anonymous_web_page",
+        "observed_at": "2026-10-09T05:08:40-07:00"
+      },
+      "sample_reason": "题材差异与结构观察选样；不按可验证传播排名抽样",
+      "event_facts_reverified_this_turn": false
+    },
+    {
+      "id": "S09",
+      "title": "明天，是GPT-4o的葬礼。",
+      "author": "数字生命卡兹克",
+      "published_at": "2026-02-13 10:46:00",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647679990&idx=1&sn=8559a77bf39546c85108de27a91a1ce7",
+      "line_count": 176,
+      "read_scope": "full_body_this_turn",
+      "markdown_image_occurrences": 15,
+      "archive_image_count": 15,
+      "engagement": {
+        "read_count": null,
+        "like_count": null,
+        "wow_count": null,
+        "share_count": null,
+        "favorite_count": null,
+        "comment_count": null,
+        "comments": null,
+        "status": "not_returned_by_anonymous_web_page",
+        "observed_at": "2026-10-09T05:12:11-07:00"
+      },
+      "sample_reason": "题材差异与结构观察选样；不按可验证传播排名抽样",
+      "event_facts_reverified_this_turn": false
+    },
+    {
+      "id": "S10",
+      "title": "今天，我决定把「卡兹克风格创作.skill」开源了。",
+      "author": "数字生命卡兹克",
+      "published_at": "2026-04-07 10:04:46",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647681343&idx=1&sn=5d8f0ed39a3cc8d9593367251a136fdd",
+      "line_count": 192,
+      "read_scope": "full_body_this_turn",
+      "markdown_image_occurrences": 6,
+      "archive_image_count": 6,
+      "engagement": {
+        "read_count": null,
+        "like_count": null,
+        "wow_count": null,
+        "share_count": null,
+        "favorite_count": null,
+        "comment_count": null,
+        "comments": null,
+        "status": "not_returned_by_anonymous_web_page",
+        "observed_at": "2026-10-09T05:08:00-07:00"
+      },
+      "sample_reason": "题材差异与结构观察选样；不按可验证传播排名抽样",
+      "event_facts_reverified_this_turn": false
+    },
+    {
+      "id": "S11",
+      "title": "专访\"Prompt之神\"李继刚 - 我想用20年时间，给世界留一句话。",
+      "author": "数字生命卡兹克",
+      "published_at": "2024-11-04 09:00:00",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647666347&idx=1&sn=2e6bb2721e1829a611faffadc5dea8ec",
+      "line_count": 224,
+      "read_scope": "full_body_this_turn",
+      "markdown_image_occurrences": 16,
+      "archive_image_count": 16,
+      "engagement": {
+        "read_count": null,
+        "like_count": null,
+        "wow_count": null,
+        "share_count": null,
+        "favorite_count": null,
+        "comment_count": null,
+        "comments": null,
+        "status": "not_returned_by_anonymous_web_page",
+        "observed_at": "2026-10-09T05:06:27-07:00"
+      },
+      "sample_reason": "题材差异与结构观察选样；不按可验证传播排名抽样",
+      "event_facts_reverified_this_turn": false
+    },
+    {
+      "id": "S12",
+      "title": "淘宝上卖9块9的DeepSeek，让我看到了被折叠的魔幻世界。",
+      "author": "数字生命卡兹克",
+      "published_at": "2025-09-16 09:30:00",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647675112&idx=1&sn=90a459a0cecba257c3222028059578ef",
+      "line_count": 111,
+      "read_scope": "full_body_this_turn",
+      "markdown_image_occurrences": 17,
+      "archive_image_count": 17,
+      "engagement": {
+        "read_count": null,
+        "like_count": null,
+        "wow_count": null,
+        "share_count": null,
+        "favorite_count": null,
+        "comment_count": null,
+        "comments": null,
+        "status": "not_returned_by_anonymous_web_page",
+        "observed_at": "2026-10-09T04:47:16-07:00"
+      },
+      "sample_reason": "题材差异与结构观察选样；不按可验证传播排名抽样",
+      "event_facts_reverified_this_turn": false
+    },
+    {
+      "id": "S13",
+      "title": "一手体验首款通用Agent产品Manus - 唯有惊叹。",
+      "author": "数字生命卡兹克",
+      "published_at": "2025-03-06 06:03:27",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647669372&idx=1&sn=2ea19555652b4fdac1e84601169c6fea",
+      "line_count": 94,
+      "read_scope": "full_body_this_turn",
+      "nonvisible_variation_selectors_in_original": 0,
+      "original_file_unchanged": true,
+      "markdown_image_occurrences": 26,
+      "archive_image_count": 25,
+      "engagement": {
+        "read_count": null,
+        "like_count": null,
+        "wow_count": null,
+        "share_count": null,
+        "favorite_count": null,
+        "comment_count": null,
+        "comments": null,
+        "status": "not_returned_by_anonymous_web_page",
+        "observed_at": "2026-10-09T05:11:31-07:00"
+      },
+      "sample_reason": "补充新品首发、模型发布、完整任务体验及首发后观点复盘；不以可验证热度抽样。",
+      "event_facts_reverified_this_turn": false
+    },
+    {
+      "id": "S14",
+      "title": "阿里深夜开源万相2.1，这是AI视频领域的DeepSeek啊。",
+      "author": "数字生命卡兹克",
+      "published_at": "2025-02-26 06:08:00",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647668981&idx=1&sn=ecd50f240b99a2d02ff4fd6e554d929b",
+      "line_count": 82,
+      "read_scope": "full_body_this_turn",
+      "nonvisible_variation_selectors_in_original": 0,
+      "original_file_unchanged": true,
+      "markdown_image_occurrences": 22,
+      "archive_image_count": 22,
+      "engagement": {
+        "read_count": null,
+        "like_count": null,
+        "wow_count": null,
+        "share_count": null,
+        "favorite_count": null,
+        "comment_count": null,
+        "comments": null,
+        "status": "not_returned_by_anonymous_web_page",
+        "observed_at": "2026-10-09T05:14:25-07:00"
+      },
+      "sample_reason": "补充新品首发、模型发布、完整任务体验及首发后观点复盘；不以可验证热度抽样。",
+      "event_facts_reverified_this_turn": false
+    },
+    {
+      "id": "S15",
+      "title": "OpenAI深夜上线o3满血版和o4 mini - 依旧领先。",
+      "author": "数字生命卡兹克",
+      "published_at": "2025-04-17 06:08:00",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647670512&idx=1&sn=b78a84a56ed19aa9c27a1d8294c0130e",
+      "line_count": 125,
+      "read_scope": "full_body_this_turn",
+      "nonvisible_variation_selectors_in_original": 0,
+      "original_file_unchanged": true,
+      "markdown_image_occurrences": 17,
+      "archive_image_count": 17,
+      "engagement": {
+        "read_count": null,
+        "like_count": null,
+        "wow_count": null,
+        "share_count": null,
+        "favorite_count": null,
+        "comment_count": null,
+        "comments": null,
+        "status": "not_returned_by_anonymous_web_page",
+        "observed_at": "2026-10-09T04:30:49-07:00"
+      },
+      "sample_reason": "补充新品首发、模型发布、完整任务体验及首发后观点复盘；不以可验证热度抽样。",
+      "event_facts_reverified_this_turn": false
+    },
+    {
+      "id": "S16",
+      "title": "实测可灵O1，AI视频界的Banana也来了。",
+      "author": "数字生命卡兹克",
+      "published_at": "2025-12-02 09:18:00",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647677453&idx=1&sn=4da6bcd675a956d99604b2c462820a46",
+      "line_count": 186,
+      "read_scope": "full_body_this_turn",
+      "nonvisible_variation_selectors_in_original": 0,
+      "original_file_unchanged": true,
+      "markdown_image_occurrences": 33,
+      "archive_image_count": 34,
+      "engagement": {
+        "read_count": null,
+        "like_count": null,
+        "wow_count": null,
+        "share_count": null,
+        "favorite_count": null,
+        "comment_count": null,
+        "comments": null,
+        "status": "not_returned_by_anonymous_web_page",
+        "observed_at": "2026-10-09T04:27:58-07:00"
+      },
+      "sample_reason": "补充新品首发、模型发布、完整任务体验及首发后观点复盘；不以可验证热度抽样。",
+      "event_facts_reverified_this_turn": false
+    },
+    {
+      "id": "S17",
+      "title": "第一个同时为人类和Agent设计的AI视频产品，它叫，LibTV。",
+      "author": "数字生命卡兹克",
+      "published_at": "2026-03-18 11:00:07",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647680707&idx=1&sn=75cc952e1e4827cfe0a1e2a1ca8269ed",
+      "line_count": 132,
+      "read_scope": "full_body_this_turn",
+      "nonvisible_variation_selectors_in_original": 0,
+      "original_file_unchanged": true,
+      "markdown_image_occurrences": 34,
+      "archive_image_count": 34,
+      "engagement": {
+        "read_count": null,
+        "like_count": null,
+        "wow_count": null,
+        "share_count": null,
+        "favorite_count": null,
+        "comment_count": null,
+        "comments": null,
+        "status": "not_returned_by_anonymous_web_page",
+        "observed_at": "2026-10-09T05:13:01-07:00"
+      },
+      "sample_reason": "补充新品首发、模型发布、完整任务体验及首发后观点复盘；不以可验证热度抽样。",
+      "event_facts_reverified_this_turn": false
+    },
+    {
+      "id": "S18",
+      "title": "3天后，我觉得可以再来聊聊Manus了。",
+      "author": "数字生命卡兹克",
+      "published_at": "2025-03-10 09:00:00",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647669427&idx=1&sn=9faaa0ab58957ead3e38b070e7abff5e",
+      "line_count": 141,
+      "read_scope": "complete_visible_body_variation_selectors_omitted_from_display",
+      "nonvisible_variation_selectors_in_original": 22140,
+      "original_file_unchanged": true,
+      "markdown_image_occurrences": 18,
+      "archive_image_count": 18,
+      "engagement": {
+        "read_count": null,
+        "like_count": null,
+        "wow_count": null,
+        "share_count": null,
+        "favorite_count": null,
+        "comment_count": null,
+        "comments": null,
+        "status": "not_returned_by_anonymous_web_page",
+        "observed_at": "2026-10-09T05:09:25-07:00"
+      },
+      "sample_reason": "补充新品首发、模型发布、完整任务体验及首发后观点复盘；不以可验证热度抽样。",
+      "event_facts_reverified_this_turn": false
+    }
+  ],
+  "evidence": [
+    {
+      "id": "E01",
+      "source_id": "S01",
+      "start_line": 1,
+      "end_line": 23,
+      "observation": "远处的芯片政策，落到消费级显卡缺货、价格变化和游戏体验。",
+      "status": "text_observation"
+    },
+    {
+      "id": "E02",
+      "source_id": "S04",
+      "start_line": 7,
+      "end_line": 41,
+      "observation": "先跟随小团队遭遇网站故障、账单压力和无法确认抓取范围，再解释防御工具。",
+      "status": "text_observation"
+    },
+    {
+      "id": "E03",
+      "source_id": "S03",
+      "start_line": 12,
+      "end_line": 32,
+      "observation": "先呈现受害者与具体求助行为，让技术滥用落到身份和生活处境。",
+      "status": "text_observation"
+    },
+    {
+      "id": "E04",
+      "source_id": "S02",
+      "start_line": 20,
+      "end_line": 43,
+      "observation": "从找工作与入职进入，再追到外包公司的组织与成本结构。",
+      "status": "text_observation"
+    },
+    {
+      "id": "E05",
+      "source_id": "S08",
+      "start_line": 3,
+      "end_line": 44,
+      "observation": "把升级决策放到用户抗议、社区留言与平台回应的变化中。",
+      "status": "text_observation"
+    },
+    {
+      "id": "E06",
+      "source_id": "S12",
+      "start_line": 3,
+      "end_line": 46,
+      "observation": "实际下单、收到免费入口、再查看好评；后一份材料打断最初判断。",
+      "status": "text_observation"
+    },
+    {
+      "id": "E07",
+      "source_id": "S12",
+      "start_line": 47,
+      "end_line": 61,
+      "observation": "买家生活与心理是一段作者想象的代入，不是采访得到的人物事实。",
+      "status": "rhetorical_projection"
+    },
+    {
+      "id": "E08",
+      "source_id": "S12",
+      "start_line": 85,
+      "end_line": 94,
+      "observation": "作者父亲修复老照片的记忆，把信息门槛接到熟悉关系；该经历属于原作者。",
+      "status": "author_reported_experience"
+    },
+    {
+      "id": "E09",
+      "source_id": "S05",
+      "start_line": 15,
+      "end_line": 36,
+      "observation": "从生成PPT后改不了字的具体困难，写上传、提取、改字和应用的结果。",
+      "status": "text_observation"
+    },
+    {
+      "id": "E10",
+      "source_id": "S05",
+      "start_line": 53,
+      "end_line": 91,
+      "observation": "后续演示逐次增加复杂中文、多尺寸、局部样式、样机等不同任务。",
+      "status": "text_observation"
+    },
+    {
+      "id": "E11",
+      "source_id": "S05",
+      "start_line": 92,
+      "end_line": 115,
+      "observation": "回忆与结尾仍围绕修改一个字和过去的工具门槛。",
+      "status": "author_reported_experience"
+    },
+    {
+      "id": "E12",
+      "source_id": "S06",
+      "start_line": 1,
+      "end_line": 23,
+      "observation": "先让人观察视觉图，再展示模型测试，结果引发原理问题。",
+      "status": "text_observation"
+    },
+    {
+      "id": "E13",
+      "source_id": "S06",
+      "start_line": 28,
+      "end_line": 69,
+      "observation": "从视频论文引入抽帧解释；与静态爱心图的机制关系仍需区分。",
+      "status": "structural_observation_not_technical_validation"
+    },
+    {
+      "id": "E14",
+      "source_id": "S06",
+      "start_line": 110,
+      "end_line": 125,
+      "observation": "解释视频后重返静态图，发现尚未解决的问题，再研究眼动。",
+      "status": "text_observation"
+    },
+    {
+      "id": "E15",
+      "source_id": "S06",
+      "start_line": 129,
+      "end_line": 139,
+      "observation": "回到作者过去的体验设计知识，从同一视觉主题走到对人的偏好。",
+      "status": "author_reported_experience"
+    },
+    {
+      "id": "E16",
+      "source_id": "S07",
+      "start_line": 3,
+      "end_line": 39,
+      "observation": "从评论区的陌生梗到主页、作品、身份，再到联系本人。",
+      "status": "text_observation"
+    },
+    {
+      "id": "E17",
+      "source_id": "S07",
+      "start_line": 49,
+      "end_line": 68,
+      "observation": "第一次回复的来由和后续具体回复承担善意的证据。",
+      "status": "text_observation"
+    },
+    {
+      "id": "E18",
+      "source_id": "S07",
+      "start_line": 78,
+      "end_line": 116,
+      "observation": "从过去被伤害到网暴、朋友帮助，人物处境与关系发生变化。",
+      "status": "text_observation"
+    },
+    {
+      "id": "E19",
+      "source_id": "S07",
+      "start_line": 121,
+      "end_line": 132,
+      "observation": "最后一问把公众热度落回少年想交朋友、被看见的愿望。",
+      "status": "text_observation"
+    },
+    {
+      "id": "E20",
+      "source_id": "S02",
+      "start_line": 37,
+      "end_line": 51,
+      "observation": "查公司、尝试产品但未跑通；原文保留了体验失败。",
+      "status": "text_observation"
+    },
+    {
+      "id": "E21",
+      "source_id": "S02",
+      "start_line": 53,
+      "end_line": 85,
+      "observation": "角色切换、保密协议、速度与留存考核等细节支撑劳动处境。",
+      "status": "text_observation"
+    },
+    {
+      "id": "E22",
+      "source_id": "S02",
+      "start_line": 80,
+      "end_line": 89,
+      "observation": "训练和数据变现起于推测，部分后续表达升为断言；复用时需要守住证据边界。",
+      "status": "source_claim_boundary"
+    },
+    {
+      "id": "E23",
+      "source_id": "S02",
+      "start_line": 94,
+      "end_line": 146,
+      "observation": "从具体劳动延伸到历史劳动与繁荣代价；类比提供解释，不证明新增事实。",
+      "status": "text_observation"
+    },
+    {
+      "id": "E24",
+      "source_id": "S04",
+      "start_line": 67,
+      "end_line": 94,
+      "observation": "当边界冲突需要解释时引入robots协议，再说AI迷宫如何回应问题。",
+      "status": "text_observation"
+    },
+    {
+      "id": "E25",
+      "source_id": "S04",
+      "start_line": 98,
+      "end_line": 107,
+      "observation": "承认训练需要数据，同时追问创作者回报与开放网络的条件。",
+      "status": "text_observation"
+    },
+    {
+      "id": "E26",
+      "source_id": "S03",
+      "start_line": 37,
+      "end_line": 86,
+      "observation": "在困境后寻找可行的检测工具；说明未跑通案例，并把技术比喻标为自己的理解。",
+      "status": "text_observation"
+    },
+    {
+      "id": "E27",
+      "source_id": "S03",
+      "start_line": 87,
+      "end_line": 108,
+      "observation": "从被伪造的脸、声音与行为扩展到身份、尊严和信任。",
+      "status": "text_observation"
+    },
+    {
+      "id": "E28",
+      "source_id": "S08",
+      "start_line": 50,
+      "end_line": 77,
+      "observation": "文化作品的类比与作者自己设定过的角色共同解释替换感；不是其他作者的经历。",
+      "status": "text_observation"
+    },
+    {
+      "id": "E29",
+      "source_id": "S08",
+      "start_line": 79,
+      "end_line": 96,
+      "observation": "对于厂商视角、内部会议和具体成本有推想，不能当作已查证动机。",
+      "status": "source_claim_boundary"
+    },
+    {
+      "id": "E30",
+      "source_id": "S08",
+      "start_line": 97,
+      "end_line": 124,
+      "observation": "把版本功能评价改写为用户共同历史与熟悉感的评价。",
+      "status": "text_observation"
+    },
+    {
+      "id": "E31",
+      "source_id": "S09",
+      "start_line": 7,
+      "end_line": 15,
+      "observation": "先承认新模型更强的常见疑问，再说明告别感为何仍存在。",
+      "status": "text_observation"
+    },
+    {
+      "id": "E32",
+      "source_id": "S09",
+      "start_line": 75,
+      "end_line": 100,
+      "observation": "一段特定时刻的对话与作者感受，解释能力与被听见的体验差异。",
+      "status": "author_reported_experience"
+    },
+    {
+      "id": "E33",
+      "source_id": "S09",
+      "start_line": 101,
+      "end_line": 142,
+      "observation": "资本与整个行业方向的概括很强，不能自动沿用为新稿事实。",
+      "status": "source_claim_boundary"
+    },
+    {
+      "id": "E34",
+      "source_id": "S09",
+      "start_line": 143,
+      "end_line": 171,
+      "observation": "承认效率价值，再回到前面的告别与愿望。",
+      "status": "text_observation"
+    },
+    {
+      "id": "E35",
+      "source_id": "S10",
+      "start_line": 51,
+      "end_line": 64,
+      "observation": "作者公开描述：初步总结、试写、本人重写、比较差异再迭代。",
+      "status": "author_self_description"
+    },
+    {
+      "id": "E36",
+      "source_id": "S10",
+      "start_line": 73,
+      "end_line": 82,
+      "observation": "作者公开描述四层检查，最终关注真实判断与表达。",
+      "status": "author_self_description"
+    },
+    {
+      "id": "E37",
+      "source_id": "S10",
+      "start_line": 113,
+      "end_line": 132,
+      "observation": "作者公开描述同时寻找支持和反对案例，以及挑选类比。",
+      "status": "author_self_description"
+    },
+    {
+      "id": "E38",
+      "source_id": "S10",
+      "start_line": 134,
+      "end_line": 160,
+      "observation": "作者解释淘宝稿怎样由评论和个人体验，经文化结构确定角度。",
+      "status": "author_self_description"
+    },
+    {
+      "id": "E39",
+      "source_id": "S10",
+      "start_line": 168,
+      "end_line": 181,
+      "observation": "作者强调内容背后的真实判断，并建议形成自己的创作方法。",
+      "status": "author_self_description"
+    },
+    {
+      "id": "E40",
+      "source_id": "S11",
+      "start_line": 15,
+      "end_line": 54,
+      "observation": "写法的前后差异引出消失半年、读书和压缩的回答，追问沿同一个问题展开。",
+      "status": "text_observation"
+    },
+    {
+      "id": "E41",
+      "source_id": "S11",
+      "start_line": 142,
+      "end_line": 176,
+      "observation": "Lisp是不是炫技的疑问，接语言习惯与表达，继而讨论框架的用途和限度。",
+      "status": "text_observation"
+    },
+    {
+      "id": "E42",
+      "source_id": "S11",
+      "start_line": 184,
+      "end_line": 221,
+      "observation": "讨论理性与写作的交集，结尾一句话与前面的压缩主题相连。",
+      "status": "text_observation"
+    },
+    {
+      "id": "E43",
+      "source_id": "S01",
+      "start_line": 31,
+      "end_line": 49,
+      "observation": "从本次禁售推到后续产品和三年产业追赶，是预测和立场，非已验证结果。",
+      "status": "source_claim_boundary"
+    },
+    {
+      "id": "E44",
+      "source_id": "S12",
+      "start_line": 62,
+      "end_line": 84,
+      "observation": "信息空间的分类借用小说结构组织认知，不等于统计验证的社会分层模型。",
+      "status": "text_observation"
+    },
+    {
+      "id": "E45",
+      "source_id": "S13",
+      "start_line": 1,
+      "end_line": 27,
+      "observation": "官方演示和GAIA图建立发布入口，再说明封测邀请码限制；这部分不能当作普通用户已可随时使用。",
+      "status": "text_observation"
+    },
+    {
+      "id": "E46",
+      "source_id": "S13",
+      "start_line": 29,
+      "end_line": 51,
+      "observation": "以论文转PPT的完整任务展示拆解、运行进度、交付文件，并分别评价内容与美感。",
+      "status": "author_reported_product_test"
+    },
+    {
+      "id": "E47",
+      "source_id": "S13",
+      "start_line": 52,
+      "end_line": 66,
+      "observation": "用真实报销表格任务测试解压、OCR、整理与交付；原文保留一个未填项。",
+      "status": "author_reported_product_test"
+    },
+    {
+      "id": "E48",
+      "source_id": "S13",
+      "start_line": 68,
+      "end_line": 83,
+      "observation": "同类研究任务与另一产品对照，再展示交互图表及提示的格式要求。",
+      "status": "author_reported_product_test"
+    },
+    {
+      "id": "E49",
+      "source_id": "S14",
+      "start_line": 9,
+      "end_line": 19,
+      "observation": "规格、显存和运行时间被翻译成谁能部署；不同规格的作者测试渠道并不相同。",
+      "status": "text_observation"
+    },
+    {
+      "id": "E50",
+      "source_id": "S14",
+      "start_line": 24,
+      "end_line": 52,
+      "observation": "以相同任务给出14B和1.3B结果，分维度观察；中文文字生成的限制没有省略。",
+      "status": "author_reported_product_test"
+    },
+    {
+      "id": "E51",
+      "source_id": "S14",
+      "start_line": 56,
+      "end_line": 66,
+      "observation": "官网、demo、API与本地部署入口及当时费用，帮助读者决定如何尝试。",
+      "status": "text_observation"
+    },
+    {
+      "id": "E52",
+      "source_id": "S15",
+      "start_line": 5,
+      "end_line": 12,
+      "observation": "先说明发布后模型入口变化，再挑工具使用和视觉推理两项具体新增能力。",
+      "status": "text_observation"
+    },
+    {
+      "id": "E53",
+      "source_id": "S15",
+      "start_line": 18,
+      "end_line": 59,
+      "observation": "评测按知识、视觉、代码和工具使用分类，并出现工具开关与幻觉等条件差异；分数不是普通任务可用性的完整证明。",
+      "status": "source_claim_boundary"
+    },
+    {
+      "id": "E54",
+      "source_id": "S15",
+      "start_line": 65,
+      "end_line": 88,
+      "observation": "把视觉推理翻译为一个看图猜地点的任务，展示查看细节、回答与答案核对。",
+      "status": "author_reported_product_test"
+    },
+    {
+      "id": "E55",
+      "source_id": "S15",
+      "start_line": 90,
+      "end_line": 98,
+      "observation": "第一次找人失败，换一张图片后成功；这不是同一输入下重复证明稳定成功。",
+      "status": "author_reported_product_test"
+    },
+    {
+      "id": "E56",
+      "source_id": "S16",
+      "start_line": 12,
+      "end_line": 41,
+      "observation": "交代内测身份、体验时长与消耗，再从原先不能编辑视频解释新增能力。",
+      "status": "author_reported_product_test"
+    },
+    {
+      "id": "E57",
+      "source_id": "S16",
+      "start_line": 44,
+      "end_line": 91,
+      "observation": "增加、删除与局部修改视频的任务逐次展示，并明确大幅运动偶尔穿帮。",
+      "status": "author_reported_product_test"
+    },
+    {
+      "id": "E58",
+      "source_id": "S16",
+      "start_line": 92,
+      "end_line": 111,
+      "observation": "把不够电影级的效果接到绿幕与人工合成流程，以用途和精度区分适用性。",
+      "status": "text_observation"
+    },
+    {
+      "id": "E59",
+      "source_id": "S16",
+      "start_line": 153,
+      "end_line": 182,
+      "observation": "从完整作品与多模态编辑谈工作方式变化，也保留多主体、画质等改进空间；首次与替代的强判断需另核。",
+      "status": "source_claim_boundary"
+    },
+    {
+      "id": "E60",
+      "source_id": "S17",
+      "start_line": 15,
+      "end_line": 64,
+      "observation": "按图片、分镜、视频等完整创作链展示画布，同时说出复杂度、缺少模型与积分迁移等条件。",
+      "status": "author_reported_product_test"
+    },
+    {
+      "id": "E61",
+      "source_id": "S17",
+      "start_line": 67,
+      "end_line": 89,
+      "observation": "介绍Agent接入条件；后端如何组织能力有作者推断，不全等于可直接验证的架构事实。",
+      "status": "source_claim_boundary"
+    },
+    {
+      "id": "E62",
+      "source_id": "S17",
+      "start_line": 91,
+      "end_line": 120,
+      "observation": "从生图到驱动视频、下载与画布项目联动，最后区分Agent初稿和人的精细控制。",
+      "status": "author_reported_product_test"
+    },
+    {
+      "id": "E63",
+      "source_id": "S18",
+      "start_line": 1,
+      "end_line": 21,
+      "observation": "首发后的文章回顾争议与作者测试经历；不能仅凭三天后的标题称为连续三天复测。",
+      "status": "text_observation"
+    },
+    {
+      "id": "E64",
+      "source_id": "S18",
+      "start_line": 22,
+      "end_line": 65,
+      "observation": "用开源复刻与GAIA讨论应用工程价值；仍需要测试条件和真实任务来判断比较。",
+      "status": "source_claim_boundary"
+    },
+    {
+      "id": "E65",
+      "source_id": "S18",
+      "start_line": 66,
+      "end_line": 125,
+      "observation": "复盘计划、工具与记忆，并含技术推想，产品工程与基础模型也分开讨论。",
+      "status": "source_claim_boundary"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "change",
+      "label": "事实发生了什么变化",
+      "group": "event",
+      "kind": "writing_operation",
+      "definition": "用有时间和范围的前后变化建立共同对象。",
+      "working_question": "谁在何时把什么从原来的状态改成了什么？",
+      "expected_output": "前后状态、时间、适用人群、直接来源。",
+      "condition": "随当前材料选择，不要求每篇经过此节点。",
+      "evidence_ids": [
+        "E01",
+        "E05",
+        "E12"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "actors",
+      "label": "谁在里面做选择",
+      "group": "event",
+      "kind": "writing_operation",
+      "definition": "分别寻找决策者、承受者、受益者与应对者。",
+      "working_question": "谁能决定，谁只能承受，谁正在行动？",
+      "expected_output": "角色与动作，不只是一串组织名称。",
+      "condition": "随当前材料选择，不要求每篇经过此节点。",
+      "evidence_ids": [
+        "E02",
+        "E03",
+        "E04",
+        "E18"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "cost",
+      "label": "改变了谁的日常",
+      "group": "event",
+      "kind": "writing_operation",
+      "definition": "沿具体动作追查钱、时间、使用机会、关系或尊严的变化。",
+      "working_question": "他原来能做什么，现在变难、变贵或消失了什么？",
+      "expected_output": "至少一条可验证的实际影响。",
+      "condition": "随当前材料选择，不要求每篇经过此节点。",
+      "evidence_ids": [
+        "E01",
+        "E02",
+        "E21"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "incentive",
+      "label": "权责与利益怎样连接",
+      "group": "event",
+      "kind": "writing_operation",
+      "definition": "沿已出现的代价追问收益、决定权和责任怎样分配。",
+      "working_question": "谁获得收益，谁承担代价，谁能改变规则？",
+      "expected_output": "有证据的结构与仍不清楚的部分。",
+      "condition": "随当前材料选择，不要求每篇经过此节点。",
+      "evidence_ids": [
+        "E04",
+        "E21",
+        "E24",
+        "E25"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "material",
+      "label": "能看见的证据",
+      "group": "event",
+      "kind": "writing_operation",
+      "definition": "优先拿到对话、动作结果、界面、公告、记录和原始说明。",
+      "working_question": "这个重要细节来自哪，读者能看见或核对吗？",
+      "expected_output": "事实清单、引用与失败记录。",
+      "condition": "随当前材料选择，不要求每篇经过此节点。",
+      "evidence_ids": [
+        "E06",
+        "E09",
+        "E20",
+        "E26"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "direct",
+      "label": "直接利益关联",
+      "group": "reader",
+      "kind": "writing_operation",
+      "definition": "从真实影响找到本来就在其中的读者。",
+      "working_question": "哪些读者会因此花更多钱、不能用、少一个选择？",
+      "expected_output": "直接受影响的读者及影响链。",
+      "condition": "随当前材料选择，不要求每篇经过此节点。",
+      "evidence_ids": [
+        "E01",
+        "E05"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "similar",
+      "label": "相似处境关联",
+      "group": "reader",
+      "kind": "writing_operation",
+      "definition": "让读者通过已经成立的困境认出自己的经验。",
+      "working_question": "即使不是同一行业，这种受制、误解、无力或等待，他经历过吗？",
+      "expected_output": "有边界的相似处境，不扩大成人人都受同样影响。",
+      "condition": "随当前材料选择，不要求每篇经过此节点。",
+      "evidence_ids": [
+        "E04",
+        "E08",
+        "E18"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "need",
+      "label": "普通但重要的需要",
+      "group": "reader",
+      "kind": "writing_operation",
+      "definition": "从人的行为识别希望被理解、被尊重、有选择、不被落下等需要。",
+      "working_question": "这个人努力维持的，究竟是哪件很普通的事？",
+      "expected_output": "由行为支撑的需要，推断则明确为推断。",
+      "condition": "随当前材料选择，不要求每篇经过此节点。",
+      "evidence_ids": [
+        "E19",
+        "E30",
+        "E32",
+        "E08"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "object",
+      "label": "能跟随的具体对象",
+      "group": "reader",
+      "kind": "writing_operation",
+      "definition": "挑一个具有动作和变化的对象，让材料沿它组织。",
+      "working_question": "跟着哪一个人、窗口、回复、任务或画面，能讲清这件事？",
+      "expected_output": "一个具体对象与要回答的问题。",
+      "condition": "随当前材料选择，不要求每篇经过此节点。",
+      "evidence_ids": [
+        "E02",
+        "E09",
+        "E12",
+        "E16"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "initial",
+      "label": "读者起初怎样理解",
+      "group": "reader",
+      "kind": "writing_operation",
+      "definition": "明确读者的背景、距离和第一判断，避免默认共享作者全部知识。",
+      "working_question": "读者现在觉得这是什么，哪里还不明白或不在乎？",
+      "expected_output": "一个可以被补充或修正的初始理解。",
+      "condition": "随当前材料选择，不要求每篇经过此节点。",
+      "evidence_ids": [
+        "E01",
+        "E06",
+        "E31"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "entry",
+      "label": "先交付一个可见入口",
+      "group": "progress",
+      "kind": "writing_operation",
+      "definition": "用最少背景让读者先看见需要关心的对象。",
+      "working_question": "读者读完开头能指认哪件事，为什么愿意看下一步？",
+      "expected_output": "一段可进入的场景、变化、问题或行动。",
+      "condition": "随当前材料选择，不要求每篇经过此节点。",
+      "evidence_ids": [
+        "E01",
+        "E02",
+        "E12",
+        "E16"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "question",
+      "label": "上一段留下的疑问",
+      "group": "progress",
+      "kind": "writing_operation",
+      "definition": "下一段由尚未回答的问题产生，不靠转场词硬连接。",
+      "working_question": "读到这里，他自然会想知道什么？",
+      "expected_output": "当前具体问题及它从哪里产生。",
+      "condition": "随当前材料选择，不要求每篇经过此节点。",
+      "evidence_ids": [
+        "E12",
+        "E14",
+        "E40",
+        "E41"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "action",
+      "label": "查证或跟随行动",
+      "group": "progress",
+      "kind": "writing_operation",
+      "definition": "找到能回答当前疑问的观察、采访、测试、追查或原始资料。",
+      "working_question": "哪一步能真正检验它，而不只是多说一个观点？",
+      "expected_output": "动作、来源、结果边界；做不到就如实保留。",
+      "condition": "随当前材料选择，不要求每篇经过此节点。",
+      "evidence_ids": [
+        "E06",
+        "E16",
+        "E20",
+        "E26"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "result",
+      "label": "让新材料改变理解",
+      "group": "progress",
+      "kind": "writing_operation",
+      "definition": "将回答写实，不只预告有人解释了某事。",
+      "working_question": "这份新材料究竟让读者多知道了什么？",
+      "expected_output": "具体答案或反例，不确定性也可能是重要结果。",
+      "condition": "随当前材料选择，不要求每篇经过此节点。",
+      "evidence_ids": [
+        "E06",
+        "E09",
+        "E17",
+        "E40"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "mechanism",
+      "label": "在需要时解释机制",
+      "group": "progress",
+      "kind": "writing_operation",
+      "definition": "技术或商业解释用于回答已经出现的困惑。",
+      "working_question": "不知道这个机制，读者会在哪一步理解错？",
+      "expected_output": "必要的理由、过程、条件与适用范围。",
+      "condition": "随当前材料选择，不要求每篇经过此节点。",
+      "evidence_ids": [
+        "E21",
+        "E24",
+        "E26",
+        "E41"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "next",
+      "label": "答案引出新的追问",
+      "group": "progress",
+      "kind": "writing_operation",
+      "definition": "答案可以收束疑问，也可能暴露尚未解决的条件。",
+      "working_question": "有了这个答案，哪件原来以为成立的事还需要再问？",
+      "expected_output": "值得继续查的下一问；没有则不制造悬念。",
+      "condition": "随当前材料选择，不要求每篇经过此节点。",
+      "evidence_ids": [
+        "E14",
+        "E40",
+        "E41",
+        "E42"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "image",
+      "label": "图像承担一个动作",
+      "group": "progress",
+      "kind": "writing_operation",
+      "definition": "真实图、对照和动图承担展示、证明、比较或停顿。",
+      "working_question": "这张图比文字多交付了什么？",
+      "expected_output": "图位、素材来源、叙述作用与图旁补充。",
+      "condition": "随当前材料选择，不要求每篇经过此节点。",
+      "evidence_ids": [
+        "E09",
+        "E10",
+        "E12",
+        "E20"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "old",
+      "label": "摆出原来的评价方式",
+      "group": "meaning",
+      "kind": "writing_operation",
+      "definition": "把常见理解或作者最初判断放到前面的具体材料里。",
+      "working_question": "我们原来用什么标准理解这件事？",
+      "expected_output": "可讨论的初始判断，避免虚构稻草人。",
+      "condition": "随当前材料选择，不要求每篇经过此节点。",
+      "evidence_ids": [
+        "E06",
+        "E30",
+        "E31"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "mismatch",
+      "label": "看见材料里的不一致",
+      "group": "meaning",
+      "kind": "writing_operation",
+      "definition": "找到真实的新结果、行为或选择与旧理解不匹配之处。",
+      "working_question": "若事情真像最初以为的那样，为什么会有这个行为？",
+      "expected_output": "一个有证据的认知缺口。",
+      "condition": "随当前材料选择，不要求每篇经过此节点。",
+      "evidence_ids": [
+        "E05",
+        "E06",
+        "E16"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "revision",
+      "label": "换一种理解这件事",
+      "group": "meaning",
+      "kind": "writing_operation",
+      "definition": "让新材料修正评价标准，或显露原来忽略的变量。",
+      "working_question": "原来的解释漏掉了谁、什么代价或什么需要？",
+      "expected_output": "材料支持的新解释与不能解释的部分。",
+      "condition": "随当前材料选择，不要求每篇经过此节点。",
+      "evidence_ids": [
+        "E30",
+        "E38",
+        "E44"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "stance",
+      "label": "形成有根据的关切",
+      "group": "meaning",
+      "kind": "writing_operation",
+      "definition": "表明作者在意什么，同时容许另一种选择的合理部分。",
+      "working_question": "面对这个冲突，作者的判断和依据是什么？",
+      "expected_output": "有范围、有依据的立场，不冒充普遍真理。",
+      "condition": "随当前材料选择，不要求每篇经过此节点。",
+      "evidence_ids": [
+        "E25",
+        "E34",
+        "E39"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "return",
+      "label": "回到同一人或问题",
+      "group": "meaning",
+      "kind": "writing_operation",
+      "definition": "让结尾回到前文已经获得意义的对象，含义可以变化。",
+      "working_question": "走完这些材料，开头那个对象现在意味着什么？",
+      "expected_output": "一个重新理解、合乎材料的愿望或适当实用行动。",
+      "condition": "随当前材料选择，不要求每篇经过此节点。",
+      "evidence_ids": [
+        "E11",
+        "E19",
+        "E34",
+        "E42"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "title",
+      "label": "标题兑现正文变化",
+      "group": "craft",
+      "kind": "writing_operation",
+      "definition": "标题抓真实对象与认识差异，承诺由正文兑现。",
+      "working_question": "最值得读的变化是什么，标题有证据吗？",
+      "expected_output": "清楚的对象与真实冲突，不用夸张补材料不足。",
+      "condition": "随当前材料选择，不要求每篇经过此节点。",
+      "evidence_ids": [
+        "E01",
+        "E05",
+        "E09",
+        "E16"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "presence",
+      "label": "作者为何在场",
+      "group": "craft",
+      "kind": "writing_operation",
+      "definition": "作者通过选择、疑问、查证、判断和真实感受存在。",
+      "working_question": "去掉我字和语气词，作者还有什么独特关切？",
+      "expected_output": "真实的观察与取舍；个人经历只用本人可核的材料。",
+      "condition": "随当前材料选择，不要求每篇经过此节点。",
+      "evidence_ids": [
+        "E08",
+        "E11",
+        "E16",
+        "E39"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "detail",
+      "label": "动作与对话承担情绪",
+      "group": "craft",
+      "kind": "writing_operation",
+      "definition": "先写怎样回复、怎样选择、怎样受影响，让感受有对象。",
+      "working_question": "哪一个动作使后面的感受成立？",
+      "expected_output": "能追溯的动作、短对话或细节；不杜撰心理。",
+      "condition": "随当前材料选择，不要求每篇经过此节点。",
+      "evidence_ids": [
+        "E17",
+        "E18",
+        "E21",
+        "E32"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "pace",
+      "label": "留白帮助消化新信息",
+      "group": "craft",
+      "kind": "writing_operation",
+      "definition": "短句、图片与停顿服务信息难度和情绪变化。",
+      "working_question": "停在这里，是读者需要消化，还是没有新内容？",
+      "expected_output": "删重复、保留认识过程，不设固定句长和图数。",
+      "condition": "随当前材料选择，不要求每篇经过此节点。",
+      "evidence_ids": [
+        "E09",
+        "E12",
+        "E19"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "analogy",
+      "label": "跨领域同构解释",
+      "group": "craft",
+      "kind": "writing_operation",
+      "definition": "借熟悉结构解释已有关系，或改变观察角度。",
+      "working_question": "两个对象相似的关系是什么，哪里不一样？",
+      "expected_output": "明确对应与边界；类比不替代事实证明。",
+      "condition": "随当前材料选择，不要求每篇经过此节点。",
+      "evidence_ids": [
+        "E23",
+        "E28",
+        "E38",
+        "E44"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "boundary",
+      "label": "事实与经历守门",
+      "group": "craft",
+      "kind": "writing_operation",
+      "definition": "分别标记事实、亲历、自述、感受、推测和修辞。",
+      "working_question": "是否把一种猜测、类比或别人经历写成了自己的事实？",
+      "expected_output": "来源与口径；材料不足时限缩、补查或删除。",
+      "condition": "随当前材料选择，不要求每篇经过此节点。",
+      "evidence_ids": [
+        "E07",
+        "E20",
+        "E22",
+        "E29",
+        "E33",
+        "E43"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "feedback",
+      "label": "真实反馈再校准",
+      "group": "craft",
+      "kind": "writing_operation",
+      "definition": "用户明确反馈和可归因的本人修改，用于有范围的迭代。",
+      "working_question": "这条规则是谁提出，适用于哪篇，改法得到认可了吗？",
+      "expected_output": "前后对照、归因、适用范围与状态。",
+      "condition": "随当前材料选择，不要求每篇经过此节点。",
+      "evidence_ids": [
+        "E35",
+        "E36",
+        "E39"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "release",
+      "label": "核对这次发布的范围",
+      "group": "event",
+      "kind": "writing_operation",
+      "definition": "先确认产品、模型或功能到底发布了什么，以及谁在当时能用。",
+      "working_question": "发布的是预告、演示、内测、正式服务，还是可部署代码与权重？",
+      "expected_output": "发布日、版本、开放范围、官方来源与实际入口。",
+      "condition": "用于新品与模型发布；不能把官网演示和宣布上线写成已完整体验。",
+      "evidence_ids": [
+        "E45",
+        "E49",
+        "E52"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "delta",
+      "label": "新能力改变哪个动作",
+      "group": "event",
+      "kind": "writing_operation",
+      "definition": "把新规格、新模型和工程变化翻译成原来做不到或很费劲的任务。",
+      "working_question": "和前一版或旧方法相比，哪一个具体动作现在能做了？",
+      "expected_output": "明确基线、新增能力与对应任务，避免只有更强更快。",
+      "condition": "基线与差异有来源；不是每次发布都具有新范式或首创。",
+      "evidence_ids": [
+        "E49",
+        "E52",
+        "E56"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "access",
+      "label": "普通读者怎样用上",
+      "group": "reader",
+      "kind": "writing_operation",
+      "definition": "把邀请码、会员、硬件、入口、费用和等待成本放回真实可用性。",
+      "working_question": "普通用户需要哪些条件，试一次要花什么钱和时间？",
+      "expected_output": "当时可核的入口和代价；现稿价格、地区和开放状态重新查。",
+      "condition": "作者特殊权限与公开使用条件分开；旧文价格不能沿用为现在。",
+      "evidence_ids": [
+        "E45",
+        "E49",
+        "E51",
+        "E56",
+        "E60"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "task",
+      "label": "选择有识别力的任务",
+      "group": "progress",
+      "kind": "writing_operation",
+      "definition": "让读者认识的完整任务或关键卡点承担能力验证。",
+      "working_question": "这个任务能区分漂亮演示和真正的使用价值吗？",
+      "expected_output": "输入材料、目标、完成标准与测试理由。",
+      "condition": "任务贴近目标读者；难度和条件足以考察所讨论的能力。",
+      "evidence_ids": [
+        "E46",
+        "E47",
+        "E54",
+        "E57",
+        "E62"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "protocol",
+      "label": "说明条件与对照",
+      "group": "craft",
+      "kind": "writing_operation",
+      "definition": "交代版本、输入、提示、工具、次数与可比范围，避免结论超过测试。",
+      "working_question": "两份结果真的在比同一件事吗，哪些条件不同？",
+      "expected_output": "必要测试条件、对照依据和缺失项。",
+      "condition": "不把有限案例当成成功率；对照不同渠道或不同图片时明确说明。",
+      "evidence_ids": [
+        "E48",
+        "E49",
+        "E50",
+        "E53",
+        "E55",
+        "E56"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "process",
+      "label": "展示任务怎样完成",
+      "group": "progress",
+      "kind": "writing_operation",
+      "definition": "用操作、进度、实际记录和录屏，让读者跟上执行过程。",
+      "working_question": "过程中哪些动作有助于判断能力和使用感受？",
+      "expected_output": "实际操作轨迹、等待或干预；不复述每一个无关步骤。",
+      "condition": "只呈现可观察的过程；产品显示的进度不等于掌握模型全部真实思考。",
+      "evidence_ids": [
+        "E46",
+        "E47",
+        "E54",
+        "E62"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "acceptance",
+      "label": "验收交付物能否使用",
+      "group": "progress",
+      "kind": "writing_operation",
+      "definition": "完成提示和生成文件还需要核对内容、格式、准确性与用途。",
+      "working_question": "这个结果拿去完成原来的任务，哪里对、哪里还缺？",
+      "expected_output": "任务完成情况、错误、质量和需人工修正的部分。",
+      "condition": "验收标准由任务决定；截图好看、文件生成和结论正确分别检验。",
+      "evidence_ids": [
+        "E46",
+        "E47",
+        "E50",
+        "E55",
+        "E62"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "failure",
+      "label": "保留失败和能力边界",
+      "group": "progress",
+      "kind": "writing_operation",
+      "definition": "让错误、重试与精度限制帮助读者认识产品适用范围。",
+      "working_question": "它在哪里出错，换条件后为什么表现不同？",
+      "expected_output": "失败输入、观察、改动与结论边界。",
+      "condition": "不为追求首发热情删掉重要失败；也不编造测试或失败次数。",
+      "evidence_ids": [
+        "E47",
+        "E50",
+        "E55",
+        "E57",
+        "E58",
+        "E59"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "fit",
+      "label": "谁适合 谁还需等等",
+      "group": "reader",
+      "kind": "writing_operation",
+      "definition": "结合任务、质量、成本和控制需求给出有条件的使用判断。",
+      "working_question": "什么人用它能获益，什么任务仍需要旧工具或人工？",
+      "expected_output": "适用者、任务、代价与暂不适用条件。",
+      "condition": "建议由当前证据支撑，不把作者好恶扩成所有人的选择。",
+      "evidence_ids": [
+        "E51",
+        "E58",
+        "E60",
+        "E62"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "workflow",
+      "label": "工作方式怎样改变",
+      "group": "meaning",
+      "kind": "writing_operation",
+      "definition": "从已验证的任务前后变化，讨论分工、门槛和控制权怎样变化。",
+      "working_question": "它是多了一个功能，还是改变了做这件事的过程？",
+      "expected_output": "有具体过程支撑的工作方式判断。",
+      "condition": "不能从几个案例直接宣布岗位或旧软件消失。",
+      "evidence_ids": [
+        "E46",
+        "E47",
+        "E58",
+        "E62"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "claims",
+      "label": "区分宣称 演示与实测",
+      "group": "craft",
+      "kind": "writing_operation",
+      "definition": "给每一个重要结论标清是厂商资料、官方演示、作者体验还是推断。",
+      "working_question": "这句话是谁证明的，当前材料的证据等级是什么？",
+      "expected_output": "来源与证据等级、不能证明的范围。",
+      "condition": "榜单、厂商case和原作者实测各有用途；都不能伪装成Q叔亲测。",
+      "evidence_ids": [
+        "E45",
+        "E53",
+        "E59",
+        "E61",
+        "E64",
+        "E65"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "reassess",
+      "label": "首发之后再评估",
+      "group": "meaning",
+      "kind": "writing_operation",
+      "definition": "在新版本、争议或更多使用材料出现后，重新检查初步判断。",
+      "working_question": "有新的测试记录，还是只是对同一件事的解释和评论？",
+      "expected_output": "新增证据、实际改动及判断是否需要修正。",
+      "condition": "复盘不自动等于复测；只有新增测试或长期使用记录时才讨论稳定性变化。",
+      "evidence_ids": [
+        "E63",
+        "E64",
+        "E65"
+      ],
+      "status": "derived_editorial_model"
+    }
+  ],
+  "edges": [
+    {
+      "id": "R01",
+      "source": "change",
+      "target": "actors",
+      "relation": "unpacks",
+      "label": "变化落到谁",
+      "condition": "变化具有不同角色和决策权限。",
+      "evidence_ids": [
+        "E02",
+        "E03",
+        "E05"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "R02",
+      "source": "actors",
+      "target": "cost",
+      "relation": "traces_effect",
+      "label": "追踪真实影响",
+      "condition": "必须有动作、材料或可限定的推断支撑。",
+      "evidence_ids": [
+        "E01",
+        "E02",
+        "E21"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "R03",
+      "source": "cost",
+      "target": "incentive",
+      "relation": "raises",
+      "label": "谁承担谁受益",
+      "condition": "影响已成立且结构解释会增加理解。",
+      "evidence_ids": [
+        "E04",
+        "E21",
+        "E24"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "R04",
+      "source": "change",
+      "target": "material",
+      "relation": "requires",
+      "label": "核对变化",
+      "condition": "新闻或产品断言需要原始材料。",
+      "evidence_ids": [
+        "E06",
+        "E20",
+        "E26"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "R05",
+      "source": "cost",
+      "target": "direct",
+      "relation": "grounds",
+      "label": "直接关联",
+      "condition": "当前读者群确实受到这条影响。",
+      "evidence_ids": [
+        "E01",
+        "E05"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "R06",
+      "source": "cost",
+      "target": "similar",
+      "relation": "grounds",
+      "label": "处境相似",
+      "condition": "说明相似处境，不据此断言影响相同。",
+      "evidence_ids": [
+        "E04",
+        "E08",
+        "E18"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "R07",
+      "source": "actors",
+      "target": "need",
+      "relation": "interprets",
+      "label": "行为显露需要",
+      "condition": "不能从一个动作代言所有人的心理。",
+      "evidence_ids": [
+        "E19",
+        "E32"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "R08",
+      "source": "direct",
+      "target": "object",
+      "relation": "selects",
+      "label": "选择跟随对象",
+      "condition": "具体人或日常动作能承载影响。",
+      "evidence_ids": [
+        "E01",
+        "E05"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "R09",
+      "source": "similar",
+      "target": "object",
+      "relation": "selects",
+      "label": "选择共同处境",
+      "condition": "对象不必是读者本人，但困境须可认识。",
+      "evidence_ids": [
+        "E02",
+        "E04",
+        "E16"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "R10",
+      "source": "need",
+      "target": "object",
+      "relation": "selects",
+      "label": "需要依附对象",
+      "condition": "前文能呈现一个实际行为。",
+      "evidence_ids": [
+        "E17",
+        "E19",
+        "E32"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "R11",
+      "source": "initial",
+      "target": "entry",
+      "relation": "calibrates",
+      "label": "补足最少背景",
+      "condition": "不默认读者共享作者的知识和情绪。",
+      "evidence_ids": [
+        "E01",
+        "E31"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "R12",
+      "source": "object",
+      "target": "entry",
+      "relation": "grounds",
+      "label": "从可见处进入",
+      "condition": "没有现场也可用可追溯对象，不编偶遇。",
+      "evidence_ids": [
+        "E02",
+        "E09",
+        "E12",
+        "E16"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "R13",
+      "source": "entry",
+      "target": "question",
+      "relation": "raises",
+      "label": "留下自然疑问",
+      "condition": "疑问应来自入口信息，不能制造空悬念。",
+      "evidence_ids": [
+        "E12",
+        "E16",
+        "E40"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "R14",
+      "source": "question",
+      "target": "action",
+      "relation": "requires",
+      "label": "需要回答的动作",
+      "condition": "当前材料可以查证、观察或采访。",
+      "evidence_ids": [
+        "E06",
+        "E16",
+        "E20"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "R15",
+      "source": "material",
+      "target": "action",
+      "relation": "enables",
+      "label": "提供回答材料",
+      "condition": "说明原始来源和真实验证范围。",
+      "evidence_ids": [
+        "E20",
+        "E26"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "R16",
+      "source": "action",
+      "target": "result",
+      "relation": "produces",
+      "label": "交付具体结果",
+      "condition": "失败也如实写，不把尝试当成功。",
+      "evidence_ids": [
+        "E06",
+        "E09",
+        "E20",
+        "E26"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "R17",
+      "source": "result",
+      "target": "mechanism",
+      "relation": "raises",
+      "label": "为什么会这样",
+      "condition": "结果已呈现且机制有必要。",
+      "evidence_ids": [
+        "E12",
+        "E21",
+        "E24"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "R18",
+      "source": "mechanism",
+      "target": "question",
+      "relation": "answers",
+      "label": "回答当前困惑",
+      "condition": "不能用背景知识替代具体答案。",
+      "evidence_ids": [
+        "E24",
+        "E26",
+        "E41"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "R19",
+      "source": "result",
+      "target": "next",
+      "relation": "raises",
+      "label": "又出现什么问题",
+      "condition": "新材料真的暴露未解条件。",
+      "evidence_ids": [
+        "E06",
+        "E14",
+        "E40"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "R20",
+      "source": "mechanism",
+      "target": "next",
+      "relation": "raises",
+      "label": "解释仍有边界",
+      "condition": "说明还有哪部分不能由此前解释覆盖。",
+      "evidence_ids": [
+        "E14",
+        "E41"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "R21",
+      "source": "next",
+      "target": "question",
+      "relation": "loops",
+      "label": "继续追问",
+      "condition": "如果没有新疑问，就停或进入判断。",
+      "evidence_ids": [
+        "E14",
+        "E40",
+        "E41"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "R22",
+      "source": "initial",
+      "target": "old",
+      "relation": "expresses",
+      "label": "原来的理解",
+      "condition": "作者与读者的第一判断可不同，要说清。",
+      "evidence_ids": [
+        "E06",
+        "E31"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "R23",
+      "source": "old",
+      "target": "mismatch",
+      "relation": "sets_expectation",
+      "label": "与材料对照",
+      "condition": "旧判断是合理可理解的，而非稻草人。",
+      "evidence_ids": [
+        "E05",
+        "E06",
+        "E31"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "R24",
+      "source": "result",
+      "target": "mismatch",
+      "relation": "reveals",
+      "label": "结果产生反差",
+      "condition": "反差来自实际结果而非夸张词。",
+      "evidence_ids": [
+        "E05",
+        "E06",
+        "E16"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "R25",
+      "source": "mismatch",
+      "target": "revision",
+      "relation": "requires",
+      "label": "补充或改变理解",
+      "condition": "新解释需要原来的事实链支撑。",
+      "evidence_ids": [
+        "E30",
+        "E38",
+        "E44"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "R26",
+      "source": "need",
+      "target": "revision",
+      "relation": "supports",
+      "label": "补回被忽略的需要",
+      "condition": "需要从行为与处境得到支持。",
+      "evidence_ids": [
+        "E19",
+        "E30",
+        "E32"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "R27",
+      "source": "incentive",
+      "target": "revision",
+      "relation": "supports",
+      "label": "补回结构与代价",
+      "condition": "结构仍未知时保留不确定性。",
+      "evidence_ids": [
+        "E21",
+        "E24",
+        "E25"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "R28",
+      "source": "mechanism",
+      "target": "revision",
+      "relation": "supports",
+      "label": "给出解释条件",
+      "condition": "技术解释不能自动推出社会结论。",
+      "evidence_ids": [
+        "E24",
+        "E26",
+        "E41"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "R29",
+      "source": "revision",
+      "target": "stance",
+      "relation": "grounds",
+      "label": "作者据此判断",
+      "condition": "立场与可验证事实分开。",
+      "evidence_ids": [
+        "E25",
+        "E30",
+        "E34"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "R30",
+      "source": "stance",
+      "target": "return",
+      "relation": "returns_to",
+      "label": "关切回到对象",
+      "condition": "结尾不能临时换成无关的大道理。",
+      "evidence_ids": [
+        "E11",
+        "E19",
+        "E34",
+        "E42"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "R31",
+      "source": "return",
+      "target": "object",
+      "relation": "reinterprets",
+      "label": "同对象的新含义",
+      "condition": "回扣须增加意义，不只重复词。",
+      "evidence_ids": [
+        "E11",
+        "E19",
+        "E42"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "R32",
+      "source": "object",
+      "target": "title",
+      "relation": "selects",
+      "label": "标题有明确对象",
+      "condition": "对象和正文重点一致。",
+      "evidence_ids": [
+        "E01",
+        "E09",
+        "E16"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "R33",
+      "source": "mismatch",
+      "target": "title",
+      "relation": "signals",
+      "label": "标题呈现认识差异",
+      "condition": "正文确实回答标题承诺。",
+      "evidence_ids": [
+        "E05",
+        "E06",
+        "E16"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "R34",
+      "source": "presence",
+      "target": "action",
+      "relation": "grounds",
+      "label": "作者以查证在场",
+      "condition": "不能借用作者做过的测试。",
+      "evidence_ids": [
+        "E06",
+        "E16",
+        "E20"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "R35",
+      "source": "presence",
+      "target": "stance",
+      "relation": "grounds",
+      "label": "作者以取舍在场",
+      "condition": "感想不能替代材料。",
+      "evidence_ids": [
+        "E11",
+        "E32",
+        "E39"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "R36",
+      "source": "detail",
+      "target": "need",
+      "relation": "grounds",
+      "label": "行为支撑共情",
+      "condition": "人物心理未经证实则不写成事实。",
+      "evidence_ids": [
+        "E17",
+        "E18",
+        "E19",
+        "E21"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "R37",
+      "source": "detail",
+      "target": "presence",
+      "relation": "grounds",
+      "label": "真实关切有依附",
+      "condition": "个人经历来自自己的材料。",
+      "evidence_ids": [
+        "E08",
+        "E11",
+        "E32"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "R38",
+      "source": "image",
+      "target": "material",
+      "relation": "shows",
+      "label": "把证据交给读者",
+      "condition": "图片是真实来源且不截去关键上下文。",
+      "evidence_ids": [
+        "E09",
+        "E12",
+        "E20"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "R39",
+      "source": "image",
+      "target": "result",
+      "relation": "shows",
+      "label": "展示动作的结果",
+      "condition": "静态图不能冒充完整动态或实测。",
+      "evidence_ids": [
+        "E09",
+        "E10",
+        "E12"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "R40",
+      "source": "image",
+      "target": "pace",
+      "relation": "supports",
+      "label": "停顿与比较",
+      "condition": "图承担独立信息，不按固定段数插图。",
+      "evidence_ids": [
+        "E09",
+        "E10"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "R41",
+      "source": "pace",
+      "target": "question",
+      "relation": "supports",
+      "label": "消化后再推进",
+      "condition": "缓慢进入不等于重复同一意思。",
+      "evidence_ids": [
+        "E12",
+        "E19"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "R42",
+      "source": "analogy",
+      "target": "revision",
+      "relation": "reframes",
+      "label": "改变观察角度",
+      "condition": "对应的关系成立，新增事实另找证据。",
+      "evidence_ids": [
+        "E23",
+        "E28",
+        "E38",
+        "E44"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "R43",
+      "source": "mechanism",
+      "target": "analogy",
+      "relation": "uses",
+      "label": "翻译难理解的关系",
+      "condition": "比喻不能故意掩盖技术差异。",
+      "evidence_ids": [
+        "E24",
+        "E26",
+        "E41"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "R44",
+      "source": "boundary",
+      "target": "change",
+      "relation": "constrains",
+      "label": "守住证据与身份",
+      "condition": "事实、推测、类比与经历分别标识。",
+      "evidence_ids": [
+        "E43"
+      ],
+      "status": "project_constraint"
+    },
+    {
+      "id": "R45",
+      "source": "boundary",
+      "target": "action",
+      "relation": "constrains",
+      "label": "守住证据与身份",
+      "condition": "事实、推测、类比与经历分别标识。",
+      "evidence_ids": [
+        "E20",
+        "E26"
+      ],
+      "status": "project_constraint"
+    },
+    {
+      "id": "R46",
+      "source": "boundary",
+      "target": "mechanism",
+      "relation": "constrains",
+      "label": "守住证据与身份",
+      "condition": "事实、推测、类比与经历分别标识。",
+      "evidence_ids": [
+        "E13",
+        "E26"
+      ],
+      "status": "project_constraint"
+    },
+    {
+      "id": "R47",
+      "source": "boundary",
+      "target": "need",
+      "relation": "constrains",
+      "label": "守住证据与身份",
+      "condition": "事实、推测、类比与经历分别标识。",
+      "evidence_ids": [
+        "E07"
+      ],
+      "status": "project_constraint"
+    },
+    {
+      "id": "R48",
+      "source": "boundary",
+      "target": "analogy",
+      "relation": "constrains",
+      "label": "守住证据与身份",
+      "condition": "事实、推测、类比与经历分别标识。",
+      "evidence_ids": [
+        "E23",
+        "E44"
+      ],
+      "status": "project_constraint"
+    },
+    {
+      "id": "R49",
+      "source": "boundary",
+      "target": "stance",
+      "relation": "constrains",
+      "label": "守住证据与身份",
+      "condition": "事实、推测、类比与经历分别标识。",
+      "evidence_ids": [
+        "E22",
+        "E29",
+        "E33"
+      ],
+      "status": "project_constraint"
+    },
+    {
+      "id": "R50",
+      "source": "boundary",
+      "target": "presence",
+      "relation": "constrains",
+      "label": "守住证据与身份",
+      "condition": "事实、推测、类比与经历分别标识。",
+      "evidence_ids": [
+        "E08",
+        "E11",
+        "E32"
+      ],
+      "status": "project_constraint"
+    },
+    {
+      "id": "R51",
+      "source": "feedback",
+      "target": "initial",
+      "relation": "updates",
+      "label": "理解用户阅读障碍",
+      "condition": "来自明确反馈或可归因改稿，其他保持候选。",
+      "evidence_ids": [
+        "E35"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "R52",
+      "source": "feedback",
+      "target": "pace",
+      "relation": "updates",
+      "label": "校准节奏",
+      "condition": "局部反馈保留题材范围，不固定长短。",
+      "evidence_ids": [
+        "E35"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "R53",
+      "source": "feedback",
+      "target": "presence",
+      "relation": "updates",
+      "label": "校准声音",
+      "condition": "代理方案未认可不作为用户范例。",
+      "evidence_ids": [
+        "E35",
+        "E39"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "R54",
+      "source": "feedback",
+      "target": "boundary",
+      "relation": "constrains",
+      "label": "限定归因与学习",
+      "condition": "未知作者不补归因，不宣称实时记录全部编辑。",
+      "evidence_ids": [
+        "E35"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "R55",
+      "source": "release",
+      "target": "delta",
+      "relation": "unpacks",
+      "label": "指出具体新增能力",
+      "condition": "比较范围和基线可核，不默认首创。",
+      "evidence_ids": [
+        "E49",
+        "E52",
+        "E56"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "R56",
+      "source": "claims",
+      "target": "release",
+      "relation": "constrains",
+      "label": "确认发布口径",
+      "condition": "预告、内测和正式可用分开。",
+      "evidence_ids": [
+        "E45",
+        "E52"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "R57",
+      "source": "release",
+      "target": "access",
+      "relation": "requires",
+      "label": "谁实际能用",
+      "condition": "发布范围不等于所有人都有入口。",
+      "evidence_ids": [
+        "E45",
+        "E49",
+        "E51"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "R58",
+      "source": "delta",
+      "target": "task",
+      "relation": "selects",
+      "label": "让能力接受任务检验",
+      "condition": "任务确实检验声称的新能力。",
+      "evidence_ids": [
+        "E46",
+        "E47",
+        "E54",
+        "E57"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "R59",
+      "source": "initial",
+      "target": "task",
+      "relation": "calibrates",
+      "label": "用读者认识的任务",
+      "condition": "原来的卡点或目标明确。",
+      "evidence_ids": [
+        "E47",
+        "E54",
+        "E58"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "R60",
+      "source": "delta",
+      "target": "need",
+      "relation": "grounds",
+      "label": "新能力接到普通需要",
+      "condition": "需要由任务和使用场景支撑。",
+      "evidence_ids": [
+        "E47",
+        "E58",
+        "E62"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "R61",
+      "source": "access",
+      "target": "fit",
+      "relation": "constrains",
+      "label": "门槛与成本限制适用者",
+      "condition": "现稿入口、费用和硬件条件需重新确认。",
+      "evidence_ids": [
+        "E49",
+        "E51",
+        "E60"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "R62",
+      "source": "task",
+      "target": "protocol",
+      "relation": "requires",
+      "label": "确定怎样比较",
+      "condition": "不只挑容易成功的展示条件。",
+      "evidence_ids": [
+        "E49",
+        "E50",
+        "E53",
+        "E55"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "R63",
+      "source": "task",
+      "target": "object",
+      "relation": "selects",
+      "label": "完整任务成为跟随对象",
+      "condition": "保留目标、输入、结果和人的需要。",
+      "evidence_ids": [
+        "E46",
+        "E47",
+        "E62"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "R64",
+      "source": "protocol",
+      "target": "action",
+      "relation": "constrains",
+      "label": "按条件做真实验证",
+      "condition": "没执行的动作不写成实测。",
+      "evidence_ids": [
+        "E50",
+        "E54",
+        "E55"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "R65",
+      "source": "action",
+      "target": "process",
+      "relation": "produces",
+      "label": "给出观察到的过程",
+      "condition": "过程可核，不声称知道全部内部思考。",
+      "evidence_ids": [
+        "E46",
+        "E47",
+        "E54",
+        "E62"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "R66",
+      "source": "process",
+      "target": "image",
+      "relation": "shows",
+      "label": "操作与结果配真实图",
+      "condition": "图或录屏能承担重要动作，不逐步堆截图。",
+      "evidence_ids": [
+        "E46",
+        "E54",
+        "E57",
+        "E62"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "R67",
+      "source": "process",
+      "target": "acceptance",
+      "relation": "requires",
+      "label": "过程之后验收结果",
+      "condition": "跑完流程还需要核内容。",
+      "evidence_ids": [
+        "E46",
+        "E47",
+        "E62"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "R68",
+      "source": "result",
+      "target": "acceptance",
+      "relation": "requires",
+      "label": "生成不等于合格",
+      "condition": "按任务的标准检查输出。",
+      "evidence_ids": [
+        "E46",
+        "E47",
+        "E55"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "R69",
+      "source": "protocol",
+      "target": "acceptance",
+      "relation": "calibrates",
+      "label": "结论不超过条件",
+      "condition": "规格、渠道、输入不同要保留区别。",
+      "evidence_ids": [
+        "E49",
+        "E50",
+        "E53",
+        "E55"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "R70",
+      "source": "acceptance",
+      "target": "failure",
+      "relation": "reveals",
+      "label": "哪些地方仍未做好",
+      "condition": "保存实际错误，不夸大或编造失败。",
+      "evidence_ids": [
+        "E47",
+        "E50",
+        "E55",
+        "E57"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "R71",
+      "source": "failure",
+      "target": "fit",
+      "relation": "constrains",
+      "label": "失败界定适用范围",
+      "condition": "说明在哪种精度或任务下影响重大。",
+      "evidence_ids": [
+        "E50",
+        "E58",
+        "E59"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "R72",
+      "source": "acceptance",
+      "target": "fit",
+      "relation": "grounds",
+      "label": "验收支持使用判断",
+      "condition": "不能只以好看或单次跑通推荐所有任务。",
+      "evidence_ids": [
+        "E46",
+        "E58",
+        "E62"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "R73",
+      "source": "fit",
+      "target": "workflow",
+      "relation": "grounds",
+      "label": "看它改变哪段工作",
+      "condition": "已有使用证据与合适任务。",
+      "evidence_ids": [
+        "E58",
+        "E60",
+        "E62"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "R74",
+      "source": "workflow",
+      "target": "revision",
+      "relation": "reframes",
+      "label": "补充原有产品理解",
+      "condition": "模型能力与工程、交互价值区分。",
+      "evidence_ids": [
+        "E46",
+        "E62",
+        "E65"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "R75",
+      "source": "workflow",
+      "target": "stance",
+      "relation": "supports",
+      "label": "由实际变化形成判断",
+      "condition": "不自动宣布行业和岗位终结。",
+      "evidence_ids": [
+        "E59",
+        "E62"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "R76",
+      "source": "fit",
+      "target": "return",
+      "relation": "supports",
+      "label": "结尾给适当选择",
+      "condition": "可以收在实用判断，不强制宏大升华。",
+      "evidence_ids": [
+        "E51",
+        "E58",
+        "E62"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "R77",
+      "source": "claims",
+      "target": "title",
+      "relation": "constrains",
+      "label": "标题兑现证据等级",
+      "condition": "官方演示不称亲测，有限案例不称彻底替代。",
+      "evidence_ids": [
+        "E45",
+        "E59",
+        "E63"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "R78",
+      "source": "failure",
+      "target": "stance",
+      "relation": "constrains",
+      "label": "判断保留能力边界",
+      "condition": "赞叹可以有，但不能删掉重要限制。",
+      "evidence_ids": [
+        "E50",
+        "E55",
+        "E57",
+        "E59"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "R79",
+      "source": "claims",
+      "target": "mechanism",
+      "relation": "constrains",
+      "label": "架构解释标清推断",
+      "condition": "产品效果不能证明未公开实现。",
+      "evidence_ids": [
+        "E61",
+        "E65"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "R80",
+      "source": "acceptance",
+      "target": "reassess",
+      "relation": "raises",
+      "label": "初步判断怎样延续",
+      "condition": "后续需真实新增材料，而非重复热度。",
+      "evidence_ids": [
+        "E46",
+        "E47",
+        "E63"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "R81",
+      "source": "reassess",
+      "target": "protocol",
+      "relation": "loops",
+      "label": "新增测试再交代条件",
+      "condition": "只有实际新测试才能声称复测。",
+      "evidence_ids": [
+        "E63",
+        "E64",
+        "E65"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "R82",
+      "source": "reassess",
+      "target": "revision",
+      "relation": "updates",
+      "label": "新材料校准初步判断",
+      "condition": "把新的事实与观点复盘区分。",
+      "evidence_ids": [
+        "E63",
+        "E64",
+        "E65"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "R83",
+      "source": "boundary",
+      "target": "release",
+      "relation": "constrains",
+      "label": "守住实测和事实归属",
+      "condition": "历史作者体验不等于Q叔亲测，旧入口和价格不等于当前。",
+      "evidence_ids": [
+        "E45",
+        "E49",
+        "E56",
+        "E61",
+        "E63"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "R84",
+      "source": "boundary",
+      "target": "protocol",
+      "relation": "constrains",
+      "label": "守住实测和事实归属",
+      "condition": "历史作者体验不等于Q叔亲测，旧入口和价格不等于当前。",
+      "evidence_ids": [
+        "E45",
+        "E49",
+        "E56",
+        "E61",
+        "E63"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "R85",
+      "source": "boundary",
+      "target": "claims",
+      "relation": "constrains",
+      "label": "守住实测和事实归属",
+      "condition": "历史作者体验不等于Q叔亲测，旧入口和价格不等于当前。",
+      "evidence_ids": [
+        "E45",
+        "E49",
+        "E56",
+        "E61",
+        "E63"
+      ],
+      "status": "derived_editorial_model"
+    },
+    {
+      "id": "R86",
+      "source": "boundary",
+      "target": "failure",
+      "relation": "constrains",
+      "label": "守住实测和事实归属",
+      "condition": "历史作者体验不等于Q叔亲测，旧入口和价格不等于当前。",
+      "evidence_ids": [
+        "E45",
+        "E49",
+        "E56",
+        "E61",
+        "E63"
+      ],
+      "status": "derived_editorial_model"
+    }
+  ],
+  "routes": [
+    {
+      "id": "social",
+      "label": "社会事件：从规则到人的处境",
+      "node_ids": [
+        "change",
+        "actors",
+        "cost",
+        "direct",
+        "similar",
+        "need",
+        "object",
+        "initial",
+        "entry",
+        "question",
+        "action",
+        "result",
+        "mechanism",
+        "incentive",
+        "mismatch",
+        "revision",
+        "stance",
+        "return"
+      ],
+      "description": "先核对事件与影响链，选择一个人或日常动作；材料逐步解释谁承担代价、谁能决定，再形成有范围的关切。不是每一篇都需要完整机制与利益分析。",
+      "source_ids": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S08"
+      ],
+      "example": "显卡管制报道 → 消费级产品缺货与价格变化 → 游戏和创作使用者 → 可获得性与选择。仅分析原文写法，不沿用当年的政策和价格为现在的事实。"
+    },
+    {
+      "id": "discovery",
+      "label": "单功能发现：从卡点到结果",
+      "node_ids": [
+        "material",
+        "object",
+        "initial",
+        "entry",
+        "question",
+        "action",
+        "result",
+        "image",
+        "next",
+        "need",
+        "revision",
+        "stance",
+        "return"
+      ],
+      "description": "先展示读者认识的任务或卡点，再用真实动作给出结果；后续案例只保留新增约束，意义沿同一任务延伸。这是局部功能的发现路径；新品发布和整款产品体验见新增两条路径。",
+      "source_ids": [
+        "S05"
+      ],
+      "example": "图片上的文字改不了 → 上传并提取 → 修改后看效果 → 再看多尺寸等新任务 → 回到过去的改字困难。自己的稿不能照搬十几年设计师的经历。"
+    },
+    {
+      "id": "inquiry",
+      "label": "好奇与解释：让答案继续生问题",
+      "node_ids": [
+        "material",
+        "object",
+        "entry",
+        "question",
+        "action",
+        "result",
+        "mechanism",
+        "next",
+        "image",
+        "revision",
+        "return",
+        "analogy",
+        "boundary"
+      ],
+      "description": "从可参与的现象与测试进入，解释一个问题后检查是否还覆盖不了开头现象，再追问；机制不同的对象不能因行文顺畅就说成相同。",
+      "source_ids": [
+        "S06",
+        "S11"
+      ],
+      "example": "看到静态爱心 → 测试模型 → 问为何失败 → 引入视频论文 → 发现静态图与视频仍有差异 → 继续问眼动。"
+    },
+    {
+      "id": "person",
+      "label": "人物：从动作到被看见",
+      "node_ids": [
+        "actors",
+        "object",
+        "entry",
+        "question",
+        "action",
+        "detail",
+        "result",
+        "next",
+        "need",
+        "mismatch",
+        "revision",
+        "stance",
+        "return"
+      ],
+      "description": "先认识人物怎样做事，再跟随选择、冲突和关系变化；末尾回到一个普通愿望，不能把所有人物归为励志或苦难。",
+      "source_ids": [
+        "S07",
+        "S02"
+      ],
+      "example": "评论区陌生梗 → 追到本人 → 为什么回复 → 受伤与网暴 → 网友帮助 → 最后一问回到想交朋友。"
+    },
+    {
+      "id": "reframe",
+      "label": "反差：修正自己的第一判断",
+      "node_ids": [
+        "initial",
+        "old",
+        "object",
+        "entry",
+        "question",
+        "action",
+        "result",
+        "mismatch",
+        "detail",
+        "need",
+        "analogy",
+        "revision",
+        "stance",
+        "return",
+        "boundary"
+      ],
+      "description": "先保留一个合理的第一判断，再找能使它变复杂的真实材料；改变评价标准，避免把反差变成嘲笑他人。",
+      "source_ids": [
+        "S12",
+        "S08"
+      ],
+      "example": "以为卖免费链接会遭差评 → 实际好评 → 买家重视可用入口 → 从聪明与否转向获取信息的处境。原文想象买家的生活，不是采访事实。"
+    },
+    {
+      "id": "interview",
+      "label": "访谈：追问一个答案怎样成立",
+      "node_ids": [
+        "initial",
+        "object",
+        "entry",
+        "question",
+        "action",
+        "result",
+        "mechanism",
+        "next",
+        "revision",
+        "analogy",
+        "return",
+        "boundary"
+      ],
+      "description": "从真实前后变化或矛盾进入，保留回答的理由、例子、追问与条件；不要每个话题摘一句就声称递进。",
+      "source_ids": [
+        "S11"
+      ],
+      "example": "Prompt写法发生变化 → 消失半年干什么 → 阅读与压缩 → Lisp有用还是炫技 → 框架怎样帮入门又怎样限制表达 → 留下一句话。"
+    },
+    {
+      "id": "product_release",
+      "label": "新品发布：新能力意味着什么",
+      "node_ids": [
+        "release",
+        "claims",
+        "delta",
+        "initial",
+        "object",
+        "entry",
+        "question",
+        "material",
+        "task",
+        "access",
+        "result",
+        "mechanism",
+        "need",
+        "fit",
+        "workflow",
+        "stance",
+        "return"
+      ],
+      "description": "先核对发布范围与证据等级，挑真正改变任务的新能力，连接读者用途和可用条件。已有实测则衔接体验路径；只有演示或官方资料时准确归因，不冒称体验。",
+      "source_ids": [
+        "S13",
+        "S14",
+        "S15",
+        "S16",
+        "S17"
+      ],
+      "example": "o3发布稿先指出工具和视觉推理，再让猜地点任务解释新能力；万相把规格接到显存与入口。研究原文组织方法，不能继承旧价格或首次等未复核断言。"
+    },
+    {
+      "id": "product_experience",
+      "label": "实际体验：从任务到使用判断",
+      "node_ids": [
+        "claims",
+        "initial",
+        "task",
+        "protocol",
+        "action",
+        "process",
+        "image",
+        "result",
+        "acceptance",
+        "failure",
+        "access",
+        "fit",
+        "next",
+        "workflow",
+        "revision",
+        "stance",
+        "return",
+        "reassess"
+      ],
+      "description": "围绕一个完整真实任务，交代必要条件，用操作、结果与验收让读者看到能力；保留失败、代价和适用范围，再讨论工作方式变化。首发之后的观点复盘不自动算作复测。",
+      "source_ids": [
+        "S13",
+        "S14",
+        "S15",
+        "S16",
+        "S17",
+        "S18"
+      ],
+      "example": "Manus以报销表格任务展示输入、执行、文件和缺项；可灵把运动穿帮与电影级要求接到绿幕和人工合成；LibTV把Agent初稿接回画布精修。原作者测试不写成Q叔的经历。"
+    }
+  ],
+  "guards": [
+    {
+      "id": "C01",
+      "label": "相关性不可凭空宣布",
+      "check": "从事件到读者需要之间，有没有具体动作、代价或真实关系？",
+      "failure": "直接写这关乎我们每一个人，但没有影响链。",
+      "repair": "补一个真实受影响对象，或限缩关联人群。",
+      "evidence_ids": [
+        "E01",
+        "E02"
+      ]
+    },
+    {
+      "id": "C02",
+      "label": "转场不是逻辑",
+      "check": "删掉所以、更重要的是，下一段还会自然被问到吗？",
+      "failure": "Copy code突然转成代码可复制、审美选择不可复制。",
+      "repair": "先完成复制结果与适用范围；另一个话题确有材料再展开。",
+      "evidence_ids": [
+        "E14",
+        "E41"
+      ]
+    },
+    {
+      "id": "C03",
+      "label": "慢进入仍要新增理解",
+      "check": "每次举例，是增加条件和认识，还是重复同一结论？",
+      "failure": "为慢而重复看花园，为密而开头倾倒产品、用途与趋势。",
+      "repair": "保留共同对象和关键过程，删除相同作用的例子。",
+      "evidence_ids": [
+        "E09",
+        "E10"
+      ]
+    },
+    {
+      "id": "C04",
+      "label": "作者点评不能代替回答",
+      "check": "删掉这更值得留意一类评语，实际解释在哪里？",
+      "failure": "只说某人解释为什么，不交付那个为什么；和更强模型作无来由比较。",
+      "repair": "写真实理由、分歧与条件，让材料继续推进。",
+      "evidence_ids": [
+        "E40",
+        "E41"
+      ]
+    },
+    {
+      "id": "C05",
+      "label": "结尾沿同一关切向外走",
+      "check": "结尾的价值需要能从前面的对象和处境一步步追溯吗？",
+      "failure": "小网站突然证明所有企业不顾人类，或安排读者接受产品作业。",
+      "repair": "回到已经成立的人、体验或冲突，判断按材料限缩。",
+      "evidence_ids": [
+        "E11",
+        "E19",
+        "E34"
+      ]
+    },
+    {
+      "id": "C06",
+      "label": "共情不等于虚构传记",
+      "check": "自己经历、原作者经历、人物自述、想象场景是否分清？",
+      "failure": "把原作者父亲、深夜付费或多年设计经历写成Q叔自己的。",
+      "repair": "用可追溯公开对象或用户本人材料；想象和推测不得冒充采访事实。",
+      "evidence_ids": [
+        "E07",
+        "E08",
+        "E11",
+        "E32"
+      ]
+    },
+    {
+      "id": "C07",
+      "label": "借写法不借未经核验断言",
+      "check": "强预测、成本、动机、全行业结论是否有本轮证据？",
+      "failure": "直接继承原文对训练、财务或企业会议的推断。",
+      "repair": "重新核验，或把它保持为限定判断、类比、推测。",
+      "evidence_ids": [
+        "E22",
+        "E29",
+        "E33",
+        "E43"
+      ]
+    },
+    {
+      "id": "C08",
+      "label": "同题材读原文再选择路径",
+      "check": "当前题材和材料确实适合这条路线吗？",
+      "failure": "每篇都套爆料、反转、资本、失去温度的五段。",
+      "repair": "选择有证据的局部关系，允许无反转、无宏大升华、不同章节和图数。",
+      "evidence_ids": [
+        "E35",
+        "E39"
+      ]
+    },
+    {
+      "id": "C09",
+      "label": "发布信息和实际体验分清",
+      "check": "重要结论来自厂商、演示、作者测试还是猜测？",
+      "failure": "把演示、榜单或内测资格写成普通用户已可稳定使用。",
+      "repair": "先按来源准确归因；补真实测试或限缩结论。",
+      "evidence_ids": [
+        "E45",
+        "E53",
+        "E56",
+        "E61"
+      ],
+      "status": "derived_editorial_check"
+    },
+    {
+      "id": "C10",
+      "label": "验收之后再谈替代",
+      "check": "任务结果、失败和代价是否足以支撑使用判断？",
+      "failure": "看到文件生成或一条漂亮视频，就说人类和旧工具已被替代。",
+      "repair": "核对任务标准，写清缺项、穿帮与适用精度。",
+      "evidence_ids": [
+        "E46",
+        "E47",
+        "E55",
+        "E58",
+        "E59"
+      ],
+      "status": "derived_editorial_check"
+    },
+    {
+      "id": "C11",
+      "label": "复盘与复测分别记录",
+      "check": "后续文章有新版本、输入、次数和结果吗？",
+      "failure": "只凭三天后的标题就声称连续测试三天，或把两张不同图片当同条件对照。",
+      "repair": "复盘写成复盘；真实复测才记录条件和判断变化。",
+      "evidence_ids": [
+        "E55",
+        "E63",
+        "E64",
+        "E65"
+      ],
+      "status": "derived_editorial_check"
+    }
+  ],
+  "event_to_reader_fields": [
+    "事件前后变化",
+    "决策者与承受者",
+    "改变的动作或资源",
+    "真实损失与新机会",
+    "读者关联的类型",
+    "行为显露的需要",
+    "读者起初的问题",
+    "回答所需证据"
+  ],
+  "relations_are": "编辑依赖与叙述关系；不是已证明的外部事件因果，也不是固定段落顺序。",
+  "revision": 2,
+  "updated_on": "2026-10-13",
+  "distribution_note": "Public editorial model; original private feedback and local article archives are not distributed."
+}

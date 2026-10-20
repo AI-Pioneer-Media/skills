@@ -1,0 +1,188 @@
+{
+  "schema_version": 1,
+  "updated_on": "2026-10-20",
+  "skills": [
+    {
+      "name": "ai-pioneer-1019",
+      "path": "ai-pioneer-1019",
+      "entrypoint": "ai-pioneer-1019/SKILL.md",
+      "included_in_writing_sync": true,
+      "status": "available"
+    },
+    {
+      "name": "ai-pioneer-deep-writing",
+      "path": "ai-pioneer-deep-writing",
+      "entrypoint": "ai-pioneer-deep-writing/SKILL.md",
+      "included_in_writing_sync": true,
+      "status": "available"
+    },
+    {
+      "name": "aipioneer-cover-blueprint",
+      "path": "aipioneer-cover-blueprint",
+      "entrypoint": "aipioneer-cover-blueprint/SKILL.md",
+      "included_in_writing_sync": false,
+      "status": "available"
+    },
+    {
+      "name": "aipioneer-cover-collage",
+      "path": "aipioneer-cover-collage",
+      "entrypoint": "aipioneer-cover-collage/SKILL.md",
+      "included_in_writing_sync": false,
+      "status": "available"
+    },
+    {
+      "name": "aipioneer-cover-mint",
+      "path": "aipioneer-cover-mint",
+      "entrypoint": "aipioneer-cover-mint/SKILL.md",
+      "included_in_writing_sync": false,
+      "status": "available"
+    },
+    {
+      "name": "aipioneer-cover-portrait",
+      "path": "aipioneer-cover-portrait",
+      "entrypoint": "aipioneer-cover-portrait/SKILL.md",
+      "included_in_writing_sync": false,
+      "status": "available"
+    },
+    {
+      "name": "aipioneer-cover-silent",
+      "path": "aipioneer-cover-silent",
+      "entrypoint": "aipioneer-cover-silent/SKILL.md",
+      "included_in_writing_sync": false,
+      "status": "available"
+    },
+    {
+      "name": "aipioneer-cover-silent-question",
+      "path": "aipioneer-cover-silent-question",
+      "entrypoint": "aipioneer-cover-silent-question/SKILL.md",
+      "included_in_writing_sync": false,
+      "status": "available"
+    },
+    {
+      "name": "aipioneer-cover-type",
+      "path": "aipioneer-cover-type",
+      "entrypoint": "aipioneer-cover-type/SKILL.md",
+      "included_in_writing_sync": false,
+      "status": "available"
+    },
+    {
+      "name": "aipioneer-cover-white",
+      "path": "aipioneer-cover-white",
+      "entrypoint": "aipioneer-cover-white/SKILL.md",
+      "included_in_writing_sync": false,
+      "status": "available"
+    },
+    {
+      "name": "aipioneer-publisher",
+      "path": "aipioneer-publisher",
+      "entrypoint": "aipioneer-publisher/SKILL.md",
+      "included_in_writing_sync": true,
+      "status": "historical-prototype"
+    },
+    {
+      "name": "aipioneer-style",
+      "path": "aipioneer-style",
+      "entrypoint": "aipioneer-style/SKILL.md",
+      "included_in_writing_sync": true,
+      "status": "available"
+    },
+    {
+      "name": "aipioneer-yotube",
+      "path": "aipioneer-yotube",
+      "entrypoint": "aipioneer-yotube/SKILL.md",
+      "included_in_writing_sync": true,
+      "status": "available"
+    },
+    {
+      "name": "appso",
+      "path": "appso",
+      "entrypoint": "appso/SKILL.md",
+      "included_in_writing_sync": true,
+      "status": "available"
+    },
+    {
+      "name": "cut-spoken-script",
+      "path": "cut-spoken-script",
+      "entrypoint": "cut-spoken-script/SKILL.md",
+      "included_in_writing_sync": true,
+      "status": "available"
+    },
+    {
+      "name": "douyinscriptv1",
+      "path": "douyinscriptv1",
+      "entrypoint": "douyinscriptv1/SKILL.md",
+      "included_in_writing_sync": true,
+      "status": "available"
+    },
+    {
+      "name": "elsewhere-article",
+      "path": "elsewhere-article",
+      "entrypoint": "elsewhere-article/SKILL.md",
+      "included_in_writing_sync": true,
+      "status": "available"
+    },
+    {
+      "name": "high-insight-writing",
+      "path": "high-insight-writing",
+      "entrypoint": "high-insight-writing/SKILL.md",
+      "included_in_writing_sync": true,
+      "status": "available"
+    },
+    {
+      "name": "humanizer-zh",
+      "path": "humanizer-zh",
+      "entrypoint": "humanizer-zh/SKILL.md",
+      "included_in_writing_sync": true,
+      "status": "available"
+    },
+    {
+      "name": "jackyshen-gen-short-video-script",
+      "path": "jackyshen-gen-short-video-script",
+      "entrypoint": "jackyshen-gen-short-video-script/SKILL.md",
+      "included_in_writing_sync": true,
+      "status": "available"
+    },
+    {
+      "name": "khazix-from-materials",
+      "path": "khazix-from-materials",
+      "entrypoint": "khazix-from-materials/SKILL.md",
+      "included_in_writing_sync": true,
+      "status": "available"
+    },
+    {
+      "name": "qshu-wechat-writer",
+      "path": "qshu-wechat-writer",
+      "entrypoint": "qshu-wechat-writer/SKILL.md",
+      "included_in_writing_sync": true,
+      "status": "available"
+    },
+    {
+      "name": "saibo-writer",
+      "path": "saibo-writer",
+      "entrypoint": "saibo-writer/SKILL.md",
+      "included_in_writing_sync": true,
+      "status": "available"
+    },
+    {
+      "name": "write-skill",
+      "path": "write-skill",
+      "entrypoint": "write-skill/SKILL.md",
+      "included_in_writing_sync": true,
+      "status": "available"
+    },
+    {
+      "name": "write-skill-v2",
+      "path": "write-skill-v2",
+      "entrypoint": "write-skill-v2/SKILL.md",
+      "included_in_writing_sync": true,
+      "status": "available"
+    },
+    {
+      "name": "youtube-ai-pioneer-draft",
+      "path": "youtube-ai-pioneer-draft",
+      "entrypoint": "youtube-ai-pioneer-draft/SKILL.md",
+      "included_in_writing_sync": true,
+      "status": "available"
+    }
+  ]
+}

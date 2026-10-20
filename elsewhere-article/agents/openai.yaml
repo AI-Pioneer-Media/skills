@@ -1,0 +1,4 @@
+interface:
+  display_name: "Elsewhere Article"
+  short_description: "把零散素材写成有洞察、有感染力、有人味的中文公众号深度文章"
+  default_prompt: "使用 $elsewhere-article 把我提供的素材写成一篇有中心矛盾、现实代价和人物温度的中文公众号文章。"

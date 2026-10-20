@@ -1,0 +1,7 @@
+interface:
+  display_name: "Q叔公众号图文写作"
+  short_description: "从链接或选题完成自然、有共鸣的公众号文章，主动搜集配图并记录改稿偏好"
+  default_prompt: "使用 $qshu-wechat-writer，把我提供的链接、素材或选题写成完整公众号图文稿，主动查证、搜集真实配图，并给我可编辑稿和右侧预览。"
+
+policy:
+  allow_implicit_invocation: true

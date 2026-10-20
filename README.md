@@ -29,6 +29,43 @@ AI Pioneer 公众号的写作、视频素材转稿与排版工作流。
 
 保留 `aipioneer-yotube` 的原始拼写，以兼容现有调用。每个技能目录包含完整配套文件，不要只复制 `SKILL.md`。
 
+## 2026-10-20：补齐写作技能
+
+本轮归档上次列出的18个写作与配套技能：新增14个；既有4个中，3个保持原样，`aipioneer-yotube` 同步本机新版的读者正文检查与链接保留改进。原有封面库保留。完整机器可读索引见 [catalog.json](catalog.json)。
+
+| Skill | 用途 |
+| --- | --- |
+| [qshu-wechat-writer](qshu-wechat-writer/SKILL.md) | Q叔完整图文流程、真实素材、可编辑稿与修改记录；公开分发版 |
+| [khazix-from-materials](khazix-from-materials/SKILL.md) | 真实素材组织、代入感、情绪变化与渐进揭秘 |
+| [appso](appso/SKILL.md) | 面向大众的科技事件、新品与发布会报道 |
+| [elsewhere-article](elsewhere-article/SKILL.md) | 人物、访谈与有事实支撑的深度特稿 |
+| [saibo-writer](saibo-writer/SKILL.md) | 技术产品、研究论文与报告拆解 |
+| [high-insight-writing](high-insight-writing/SKILL.md) | 提升信息密度、洞见和逻辑递进 |
+| [humanizer-zh](humanizer-zh/SKILL.md) | 中文去AI腔与自然表达审阅 |
+| [write-skill](write-skill/SKILL.md) / [write-skill-v2](write-skill-v2/SKILL.md) | 通用自媒体写作方法与升级版 |
+| [youtube-ai-pioneer-draft](youtube-ai-pioneer-draft/SKILL.md) | YouTube素材准备、转稿和发布包装脚本 |
+| [douyinscriptv1](douyinscriptv1/SKILL.md) | 社交平台短视频脚本 |
+| [jackyshen-gen-short-video-script](jackyshen-gen-short-video-script/SKILL.md) | 短视频脚本模板，保留原作者来源信息 |
+| [cut-spoken-script](cut-spoken-script/SKILL.md) | 精简口播、增强具体性、删除无用表达 |
+| [aipioneer-publisher](aipioneer-publisher/SKILL.md) | 历史发布器原型与内嵌技能，执行前须补齐占位实现 |
+
+上表补充既有的 `ai-pioneer-deep-writing`、`aipioneer-yotube`、`ai-pioneer-1019`、`aipioneer-style`。
+
+### 选择与品牌边界
+
+- Q叔文章：以 `qshu-wechat-writer` 为入口，按题材配合叙事、技术分析或审阅技能；不自动加入AI Pioneer品牌。
+- AI Pioneer文章：以深度写作或视频转稿技能组织内容，最终视觉按上方1019规范；用户明确选择优先。
+- `douyinscriptv1` 与 `jackyshen-gen-short-video-script` 功能相近，选择其中一个即可。
+- 发布授权与账号配置属于每次实际任务，技能安装或下载不代表授权群发。
+
+### 公开分发处理与依赖
+
+Q叔版本保留通用写作方法、公开来源和配套构建脚本；已移除私人项目连接、完整案例稿与逐轮反馈记录，使用者可在自己的私有工作区配置连接。原本的本地技能未被这次公开分发修改覆盖。
+
+`qshu-wechat-writer/scripts/requirements.txt` 列出了本地构建依赖。其他包保留各自依赖说明和来源标记。本仓库不对来源未声明许可的第三方内容追加统一授权；`humanizer-zh` 的原许可证随包保留。
+
+`aipioneer-publisher` 内嵌了部分同名技能及 `image-extractor` 配套组件，保留原包结构以便研究。需要单独使用写作方法时，优先安装仓库顶层同名目录。`write-skill` 的图片提取依赖位于 `aipioneer-publisher/skills/image-extractor`，需要时可将该目录一并安装到技能根目录。`npx write-skill` 等历史示例命令不代表本次已验证相应外部软件包。
+
 ## 安装与同步
 
 ```bash
@@ -59,9 +96,9 @@ git clone https://github.com/AI-Pioneer-Media/skills.git
 
   文档提及的 `scripts/wechat_draft_upload.py` 属于外部工作区工具，未包含在本仓库。
 
-- **YouTube 转稿**：预览与上传脚本使用 Node.js，需支持全局 `fetch`、`FormData` 和 `Blob`。字幕准备工具 `youtube-ai-pioneer-draft/scripts/prepare_youtube_material.py` 不在本次三个技能目录内，未随包上传；使用前需另行配置，或自行准备可信字幕、元数据和缩略图。
+- **YouTube 转稿**：预览与上传脚本使用 Node.js，需支持全局 `fetch`、`FormData` 和 `Blob`。字幕准备工具已收录于 `youtube-ai-pioneer-draft/scripts/prepare_youtube_material.py`；安装该配套技能并配置字幕获取依赖。它的上传包装器仍依赖使用者工作区的 `scripts/wechat_draft_upload.py`，该外部脚本未随包提供。
 - **预览与发布**：`publish_aipioneer_yotube.mjs` 加 `--dry-run` 只生成预览；正式写入公众号前需用户明确授权，并通过 `WECHAT_APPID`、`WECHAT_APPSECRET` 环境变量配置自己的账号。
-- **样式模板**：HTML 中的 `image.jpg`、`header.png` 等为素材占位路径，使用时替换；文档中的 `npx aipioneer-publisher` 命令依赖另行安装的发布器，本仓库不包含该发布器，也未验证该命令的外部包可用性。
+- **样式模板**：HTML 中的 `image.jpg`、`header.png` 等为素材占位路径，使用时替换；文档中的 `npx aipioneer-publisher` 命令依赖另行安装的发布器，本仓库现包含该发布器的历史原型源码，但其中仍有占位实现；未验证该命令的外部包可用性，不应直接当作生产发布器。
 - **风格选择**：默认使用 `ai-pioneer-1019/SKILL.md`。旧纯黑 v1、v2–v4、YouTube 旧蓝绿规范和 A–H 封面仅在用户明确指定时采用；写作技能可以继续准备内容，最终视觉统一按 1019。
 
 ## 品牌物料
