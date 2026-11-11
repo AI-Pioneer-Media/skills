@@ -7,8 +7,8 @@ const sharp = require('sharp');
 const assets = path.resolve(__dirname, '../assets');
 const esc = v => String(v ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const red = '#D93D28', ink = '#151515';
-const textStyle = `margin:0;font-size:16px;line-height:1.95;letter-spacing:0.3px;color:${ink};`;
-const p = (s, css='') => `<p style="${textStyle}${css}">${esc(s).replace(/\n/g,'<br />')}</p>`;
+const textStyle = `margin:0;font-size:15px;line-height:1.75;letter-spacing:1.5px;color:${ink};`;
+const p = (s, css='') => `<p style="${esc(textStyle+css)}">${esc(s).replace(/\n/g,'<br />')}</p>`;
 const image = (src, alt) => `<img src="${esc(src)}" alt="${esc(alt)}" style="display:block;width:100%;height:auto;vertical-align:middle;" />`;
 const wrap = html => `<!doctype html><html lang="zh-CN"><meta charset="utf-8"><style>*{box-sizing:border-box}body{margin:0;padding:14px 20px;background:#FFFFFF}</style>${html}</html>`;
 function required(v,label) { if(typeof v !== 'string' || !v.trim()) throw Error(`Missing ${label}`); }
@@ -39,7 +39,7 @@ async function main() {
   // Encoding only: keep the approved cover composition and dimensions.
   await sharp(hero).rotate().jpeg({quality:94}).toFile(path.join(out,'hero.jpg'));
   const bodyImages=[{local_path:'header-card.jpg',placeholder:'__HEADER__'},{local_path:'hero.jpg',placeholder:'__HERO__'}];
-  const browser=await chromium.launch({headless:true});
+  const browser=await chromium.launch({headless:true,...(process.env.PLAYWRIGHT_CHANNEL?{channel:process.env.PLAYWRIGHT_CHANNEL}:{})});
   try {
     const page=await browser.newPage({viewport:{width:1050,height:1000},deviceScaleFactor:1});
     for(const [i,r] of data.recommendations.entries()) {
@@ -56,25 +56,25 @@ async function main() {
     }
   } finally {await browser.close();}
   bodyImages.push({local_path:'ending-card.jpg',placeholder:'__ENDING__'});
-  let html=`<section style="max-width:677px;margin:0 auto;background:#FFFFFF;color:${ink};font-family:Arial,'PingFang SC','Microsoft YaHei',sans-serif;word-wrap:break-word;">`;
+  let html=`<section style="max-width:677px;margin:0 auto;padding:0 16px;box-sizing:border-box;background:#FFFFFF;color:${ink};font-family:Arial,'PingFang SC','Microsoft YaHei',sans-serif;font-size:15px;line-height:1.75;letter-spacing:1.5px;overflow-wrap:anywhere;">`;
   html+=`<section style="margin:0 0 10px;line-height:0;">${image('__HEADER__','AI PIONEER · 记录 AI 先行者的思考与行动')}</section>`;
   html+=`<p style="margin:0;line-height:0;">${image('__HERO__',data.person.name+' · '+data.person.role)}</p>`;
   // Identity and role are already present in the hero. Start the article with its headline.
   html+=p(data.headline,'font-family:SimSun,"Songti SC",serif;font-size:29px;font-weight:700;line-height:1.4;letter-spacing:0;margin:26px 0 24px;');
-  html+=`<section style="margin:0 0 36px;">${data.intro.map((t,i)=>p(t,i?'margin-top:16px;':'')).join('')}</section>`;
+  html+=`<section style="margin:0;">${data.intro.map((t,i)=>p(t,i?'margin-top:12px;':'')).join('')}</section>`;
   data.sections.forEach((s,i)=>{
-    html+=`<section style="margin:${i?36:0}px 0 15px;"><p style="margin:0 0 8px;color:${red};font-size:11px;font-weight:700;letter-spacing:1px;line-height:1.4;">${String(i+1).padStart(2,'0')}</p>${p(s.title,'font-size:20px;line-height:1.5;font-weight:700;letter-spacing:0;')}</section>`;
-    html+=s.paragraphs.map((t,j)=>p(t,j?'margin-top:16px;':'')).join('');
+    html+=`<h2 style="margin:36px 0 10px;color:${red};font-size:28px;font-weight:700;letter-spacing:0;line-height:1.3;">${String(i+1).padStart(2,'0')}</h2><h3 style="margin:0 0 16px;color:${red};font-size:18px;line-height:1.5;font-weight:700;letter-spacing:0;">${esc(s.title).replace(/\n/g,'<br />')}</h3>`;
+    html+=s.paragraphs.map((t,j)=>p(t,j?'margin-top:12px;':'')).join('');
     if(s.quote)html+=`<section style="margin:34px 0 4px;padding:0 9px;"><p style="margin:0 0 6px;font-family:Georgia,serif;font-size:48px;line-height:0.9;color:${red};">“</p>${p(s.quote.text,'font-family:SimSun,"Songti SC",serif;font-size:22px;font-weight:700;line-height:1.7;')}${p(s.quote.attribution,'font-size:12px;line-height:1.7;margin-top:12px;')}</section>`;
   });
-  html+=`<section style="margin:40px 0 0;">${p('写在最后','font-size:20px;line-height:1.5;font-weight:700;margin:0 0 16px;')}${data.conclusion.map((t,i)=>p(t,i?'margin-top:16px;':'')).join('')}</section>`;
+  html+=`<section style="margin:40px 0 0;">${p('写在最后',`font-size:18px;line-height:1.5;font-weight:700;letter-spacing:0;color:${red};margin:0 0 16px;`)}${data.conclusion.map((t,i)=>p(t,i?'margin-top:12px;':'')).join('')}</section>`;
   html+=`<section style="margin:40px 0 48px;text-align:center;"><p style="margin:0;color:${red};font-size:11px;letter-spacing:4px;line-height:1.8;">全文完</p></section><section style="margin:0 0 24px;text-align:center;"><p style="margin:0;color:${red};font-size:11px;letter-spacing:2px;line-height:1.6;">CONTINUE READING</p><p style="margin:7px 0 0;font-size:20px;font-weight:700;line-height:1.6;color:${ink};">往期推荐</p></section>`;
   data.recommendations.forEach((r,i)=>{html+=`<section style="margin:0 0 18px;line-height:0;"><a href="${esc(r.url)}" style="display:block;font-size:0;line-height:0;text-decoration:none;">${image(`__REC${i+1}__`,r.title)}</a></section>`;});
   html+=`<section style="margin:38px 0 20px;line-height:0;">${image('__ENDING__','AI PIONEER · 与AI先行者同行。人物与思想，工具与实践。')}</section></section>`;
   fs.writeFileSync(path.join(out,'content.html'),html);
   let preview=html; for(const im of bodyImages)preview=preview.replaceAll(im.placeholder,im.local_path);
   fs.writeFileSync(path.join(out,'preview.html'),wrap(preview));
-  const manifest={title:data.title,author:'AI Pioneer',digest:data.digest,content_html_path:'content.html',cover_path:'hero.jpg',content_source_url:data.content_source_url||'',body_images:bodyImages};
+  const manifest={title:data.title,author:'AI Pioneer',digest:data.digest,content_html_path:'content.html',cover_path:'hero.jpg',content_source_url:data.content_source_url||'',body_images:bodyImages,layout:{version:'2026-11-11',section_count:data.sections.length}};
   fs.writeFileSync(path.join(out,'article.json'),JSON.stringify(manifest,null,2));
   const limits={title:[...data.title].length<=32,digest:[...data.digest].length<=120,html:html.length<20000,images:bodyImages.every(i=>fs.statSync(path.join(out,i.local_path)).size<1024*1024)};
   fs.writeFileSync(path.join(out,'build-check.json'),JSON.stringify({limits,recommendations:data.recommendations.length,hero_dimensions:[hm.width,hm.height]},null,2));

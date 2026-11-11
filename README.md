@@ -10,6 +10,8 @@ AI Pioneer 公众号的写作、视频素材转稿与排版工作流。
 
 技能展示名沿用用户命名「AI Pionner 1019 新版」，成品品牌保持 **AI Pioneer**。固定物料、可编辑 HTML、生成脚本、手机预览与微信草稿脚本均在包内。账号凭据和每期素材、草稿回执不随包发布。
 
+2026-11-11 更新：正文统一为 **15px 字号、1.5px 字距、1.75 倍行高、左右各 16px 缩进**，段间距 12px；朱红 28px 序号独占一行，下一行 18px 朱红章节标题，图注居中。演讲整理按「人物姓名：发言主题」命名。生成模板与手机预览检查同步更新；仅调整排版时保留用户最新稿的内容与结构。
+
 ![1019 定稿 banner](ai-pioneer-1019/assets/header-card.jpg)
 
 [封面参考](ai-pioneer-1019/assets/approved-cover-reference.jpg) · [品牌结尾卡片](ai-pioneer-1019/assets/ending-card.jpg) · [配色与排版尺寸](ai-pioneer-1019/references/design.md) · [输入与生成](ai-pioneer-1019/references/build.md) · [草稿箱流程](ai-pioneer-1019/references/wechat.md)
