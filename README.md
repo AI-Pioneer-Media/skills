@@ -24,7 +24,7 @@ AI Pioneer 公众号的写作、视频素材转稿与排版工作流。
 
 ### 访谈原文型：2026-11-24 最终发布案例
 
-[ai-pioneer-interview](ai-pioneer-interview/SKILL.md) 固定「短 Highlights → 完整中文问答 → 短结尾」的访谈流程，覆盖选题、素材与许可核验、截图、翻译、可复制 HTML、草稿及发布状态核验。标准来自 [Tao Lin 最终发布版](https://mp.weixin.qq.com/s/t_3Nj-9mtaTM5hqfH59Xgg)。此类型采用15px正文、2倍行高、0.3px字距、朱红28px序号与黑色18px标题；优先于通用1019排版默认值。保留完整访谈，不改成观点重组型解读，也不默认补独立品牌尾卡。
+[ai-pioneer-interview](ai-pioneer-interview/SKILL.md) 固定「短 Highlights → 完整中文问答 → 短结尾」的访谈流程，覆盖选题、素材与许可核验、截图、翻译、可复制 HTML、草稿及发布状态核验。标准来自 [Tao Lin 最终发布版](https://mp.weixin.qq.com/s/t_3Nj-9mtaTM5hqfH59Xgg)。此类型采用15px正文、2倍行高、0.3px字距、朱红28px序号与黑色18px标题；优先于通用1019排版默认值。保留完整问答，往期推荐之后以一张「与AI先行者同行」品牌卡收尾。
 
 ```text
 使用 $ai-pioneer-interview，把这期访谈做成短 Highlights、完整中文问答和短结尾，生成可复制 HTML，先不发布。

@@ -66,8 +66,7 @@ def build(input_path, output_path):
     for item in data.get('recommendations', []):
         web_url(item['url'])
         local(item['image'])
-    if data.get('ending'):
-        local(data['ending'])
+    ending = local(data.get('ending') or brand / 'ending-card.jpg')
     if data.get('content_source_url'):
         web_url(data['content_source_url'])
 
@@ -121,8 +120,7 @@ def build(input_path, output_path):
         parts.append('<p style="margin:0;color:#D93D28;font-size:11px;letter-spacing:2px;line-height:1.6;text-align:center;">CONTINUE READING</p><p style="margin:7px 0 20px;font-size:20px;font-weight:700;line-height:1.6;color:#151515;text-align:center;">往期推荐</p>')
         for item in data['recommendations']:
             parts.append('<a href="' + esc(item['url']) + '">' + image(item['image'], item['title'], margin='0 0 18px') + '</a>')
-    if data.get('ending'):
-        parts.append(image(data['ending'], '与AI先行者同行', margin='24px 0 0'))
+    parts.append(image(ending, '与AI先行者同行', margin='24px 0 0'))
     content = '<section id="wechat-content" style="font-family:-apple-system,BlinkMacSystemFont,\'PingFang SC\',\'Microsoft YaHei\',Arial,sans-serif;font-size:15px;line-height:2;color:#151515;word-break:break-word;background:#fff;">' + '\n'.join(parts) + '</section>'
     (output_path / 'content.html').write_text(content, encoding='utf-8')
     embedded = content
