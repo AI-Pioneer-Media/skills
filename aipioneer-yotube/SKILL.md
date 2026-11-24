@@ -5,6 +5,8 @@ description: 将 YouTube 科技访谈、演讲或播客转成 AI Pioneer 风格�
 
 # AIPioneerYotube
 
+若用户要求「短 Highlights＋访谈原文/全文译文＋短总结」，使用同仓库 [ai-pioneer-interview](../ai-pioneer-interview/SKILL.md)，保留问答主体；不要套用本技能的观点重组与蓝绿强调版式。
+
 把一条 YouTube 链接处理成可直接使用的 AI Pioneer 公众号文章。目标不是翻译字幕或按时间轴复述，而是围绕一个读者问题重组素材，形成有事实、有机制、有章节推进、有行动结尾的中文深度稿。
 
 默认工作区为 `D:\公众号`；用户指定其他目录时以用户要求为准。

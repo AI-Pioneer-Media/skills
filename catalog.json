@@ -1,11 +1,18 @@
 {
   "schema_version": 1,
-  "updated_on": "2026-11-11",
+  "updated_on": "2026-11-24",
   "skills": [
     {
       "name": "ai-pioneer-1019",
       "path": "ai-pioneer-1019",
       "entrypoint": "ai-pioneer-1019/SKILL.md",
+      "included_in_writing_sync": true,
+      "status": "available"
+    },
+    {
+      "name": "ai-pioneer-interview",
+      "path": "ai-pioneer-interview",
+      "entrypoint": "ai-pioneer-interview/SKILL.md",
       "included_in_writing_sync": true,
       "status": "available"
     },

@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Pioneer 访谈原文型文章"
+  short_description: "按最终发布案例完成访谈选题、素材核验、全文译文、短导读与公众号排版"
+  default_prompt: "使用 $ai-pioneer-interview，把这期访谈做成短 Highlights、完整中文问答和短结尾，并生成可复制的公众号 HTML。"
